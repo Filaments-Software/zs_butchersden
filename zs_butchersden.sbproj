@@ -1,0 +1,29 @@
+{
+  "Title": "ZS Butchersden",
+  "Type": "addon",
+  "Org": "fss",
+  "Ident": "zs_butchersden",
+  "Schema": 1,
+  "IncludeSourceFiles": false,
+  "Resources": null,
+  "PackageReferences": [],
+  "EditorReferences": null,
+  "Mounts": null,
+  "IsStandaloneOnly": false,
+  "Metadata": {
+    "MaxPlayers": 64,
+    "MinPlayers": 1,
+    "TickRate": 50,
+    "GameNetworkType": "Multiplayer",
+    "MapSelect": "Unrestricted",
+    "MapList": [
+      "facepunch.flatgrass"
+    ],
+    "RankType": "None",
+    "PerMapRanking": false,
+    "LeaderboardType": "None",
+    "CsProjName": "",
+    "StartupScene": "scenes/Butchers Den.scene",
+    "ParentPackage": "fss.bloodsigil"
+  }
+}

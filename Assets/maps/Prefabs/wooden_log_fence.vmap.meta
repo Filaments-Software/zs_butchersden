@@ -1,0 +1,25 @@
+{
+  "publish": {
+    "Enabled": false,
+    "ProjectConfig": {
+      "Title": "Wooden Log Fence",
+      "Type": "map",
+      "Org": "local",
+      "Ident": "woodenlogfence",
+      "Schema": 0,
+      "IncludeSourceFiles": false,
+      "Resources": null,
+      "PackageReferences": [],
+      "EditorReferences": [
+        "facepunch.plywood_trim_01#111208",
+        "facepunch.wood_trim_burnt_blend_02#111197"
+      ],
+      "Mounts": null,
+      "IsStandaloneOnly": false,
+      "Metadata": {
+        "SingleAssetSource": "maps/prefabs/wooden_log_fence.vmap",
+        "ParentPackage": "fss.bloodsigil"
+      }
+    }
+  }
+}
