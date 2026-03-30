@@ -1,10 +1,10 @@
 {
   "publish": {
-    "Enabled": false,
+    "Enabled": true,
     "ProjectConfig": {
-      "Title": "Pillar",
+      "Title": "Railing Pillar",
       "Type": "model",
-      "Org": "local",
+      "Org": "fss",
       "Ident": "pillar",
       "Schema": 0,
       "IncludeSourceFiles": false,

@@ -525,6 +525,206 @@
             }
           ],
           "Children": []
+        },
+        {
+          "__guid": "ade38a2e-aaba-457f-afd5-e87da1240ee7",
+          "__version": 2,
+          "Flags": 0,
+          "Name": "Spot Light (15)",
+          "Position": "144,550.9402,-139.8562",
+          "Rotation": "0.7071068,-0.0000001376788,-0.7071068,0.0000001376788",
+          "Scale": "1,1,1",
+          "Tags": "light_spot,light",
+          "Enabled": true,
+          "NetworkMode": 2,
+          "NetworkFlags": 0,
+          "NetworkOrphaned": 0,
+          "NetworkTransmit": true,
+          "OwnerTransfer": 1,
+          "Components": [
+            {
+              "__type": "Sandbox.SpotLight",
+              "__guid": "3d8f1e38-9623-44a7-b41d-11b7bed27002",
+              "__enabled": true,
+              "Flags": 0,
+              "Attenuation": 4.0277777,
+              "ConeInner": 10.833334,
+              "ConeOuter": 77.083336,
+              "Cookie": null,
+              "FogMode": "Enabled",
+              "FogStrength": 1,
+              "LightColor": "0.67442,0.60541,0.50189,1",
+              "OnComponentDestroy": null,
+              "OnComponentDisabled": null,
+              "OnComponentEnabled": null,
+              "OnComponentFixedUpdate": null,
+              "OnComponentStart": null,
+              "OnComponentUpdate": null,
+              "Radius": 500,
+              "Shadows": true
+            }
+          ],
+          "Children": []
+        },
+        {
+          "__guid": "c3e8d7a2-4a43-49a9-964c-2dc72b8961a6",
+          "__version": 2,
+          "Flags": 0,
+          "Name": "Spot Light (14)",
+          "Position": "144,174.9402,-325.8562",
+          "Rotation": "0,-0.8660253,0,0.5",
+          "Scale": "1,1,1",
+          "Tags": "light_spot,light",
+          "Enabled": true,
+          "NetworkMode": 2,
+          "NetworkFlags": 0,
+          "NetworkOrphaned": 0,
+          "NetworkTransmit": true,
+          "OwnerTransfer": 1,
+          "Components": [
+            {
+              "__type": "Sandbox.SpotLight",
+              "__guid": "b1085844-df06-4c68-ba9b-65507e676b89",
+              "__enabled": true,
+              "Flags": 0,
+              "Attenuation": 1,
+              "ConeInner": 15,
+              "ConeOuter": 66.25,
+              "Cookie": null,
+              "FogMode": "Enabled",
+              "FogStrength": 1,
+              "LightColor": "1,0.7451,0.53333,1",
+              "OnComponentDestroy": null,
+              "OnComponentDisabled": null,
+              "OnComponentEnabled": null,
+              "OnComponentFixedUpdate": null,
+              "OnComponentStart": null,
+              "OnComponentUpdate": null,
+              "Radius": 500,
+              "Shadows": true
+            }
+          ],
+          "Children": []
+        },
+        {
+          "__guid": "dcfa99bf-c072-4637-bc6d-111457716646",
+          "__version": 2,
+          "Flags": 0,
+          "Name": "Spot Light (13)",
+          "Position": "80,274.94,382.1436",
+          "Rotation": "-0.7071067,-0.0000001053671,0.7071067,0.0000001053671",
+          "Scale": "1,1,1",
+          "Tags": "light_spot,light",
+          "Enabled": true,
+          "NetworkMode": 2,
+          "NetworkFlags": 0,
+          "NetworkOrphaned": 0,
+          "NetworkTransmit": true,
+          "OwnerTransfer": 1,
+          "Components": [
+            {
+              "__type": "Sandbox.SpotLight",
+              "__guid": "7566c2a8-1651-47c3-a05e-4bb7dc86572a",
+              "__enabled": true,
+              "Flags": 0,
+              "Attenuation": 4.4166665,
+              "ConeInner": 15,
+              "ConeOuter": 68.25,
+              "Cookie": null,
+              "FogMode": "Enabled",
+              "FogStrength": 1,
+              "LightColor": "0.73023,0.53324,0.33625,1",
+              "OnComponentDestroy": null,
+              "OnComponentDisabled": null,
+              "OnComponentEnabled": null,
+              "OnComponentFixedUpdate": null,
+              "OnComponentStart": null,
+              "OnComponentUpdate": null,
+              "Radius": 500,
+              "Shadows": true
+            }
+          ],
+          "Children": []
+        },
+        {
+          "__guid": "0bc7cd7f-2a45-423e-ac27-7558142f4c88",
+          "__version": 2,
+          "Flags": 0,
+          "Name": "Spot Light (12)",
+          "Position": "80,220.9402,-91.8562",
+          "Rotation": "-0.4999999,-0.5,0.4999999,0.5",
+          "Scale": "1,1,1",
+          "Tags": "light_spot,light",
+          "Enabled": true,
+          "NetworkMode": 2,
+          "NetworkFlags": 0,
+          "NetworkOrphaned": 0,
+          "NetworkTransmit": true,
+          "OwnerTransfer": 1,
+          "Components": [
+            {
+              "__type": "Sandbox.SpotLight",
+              "__guid": "9fa10337-97ac-4026-8046-cb1247e8a933",
+              "__enabled": true,
+              "Flags": 0,
+              "Attenuation": 4.4166665,
+              "ConeInner": 15,
+              "ConeOuter": 68.25,
+              "Cookie": null,
+              "FogMode": "Enabled",
+              "FogStrength": 1,
+              "LightColor": "0.73023,0.53324,0.33625,1",
+              "OnComponentDestroy": null,
+              "OnComponentDisabled": null,
+              "OnComponentEnabled": null,
+              "OnComponentFixedUpdate": null,
+              "OnComponentStart": null,
+              "OnComponentUpdate": null,
+              "Radius": 500,
+              "Shadows": true
+            }
+          ],
+          "Children": []
+        },
+        {
+          "__guid": "6c628773-b5c7-4b5e-bd27-73d97061f45c",
+          "__version": 2,
+          "Flags": 0,
+          "Name": "Spot Light (11)",
+          "Position": "80,220.9401,192.1437",
+          "Rotation": "-0.4999999,-0.5,0.4999999,0.5",
+          "Scale": "1,1,1",
+          "Tags": "light_spot,light",
+          "Enabled": true,
+          "NetworkMode": 2,
+          "NetworkFlags": 0,
+          "NetworkOrphaned": 0,
+          "NetworkTransmit": true,
+          "OwnerTransfer": 1,
+          "Components": [
+            {
+              "__type": "Sandbox.SpotLight",
+              "__guid": "107eead5-7219-460d-bd88-54fa96ee73e3",
+              "__enabled": true,
+              "Flags": 0,
+              "Attenuation": 4.4166665,
+              "ConeInner": 15,
+              "ConeOuter": 68.25,
+              "Cookie": null,
+              "FogMode": "Enabled",
+              "FogStrength": 1,
+              "LightColor": "0.73023,0.53324,0.33625,1",
+              "OnComponentDestroy": null,
+              "OnComponentDisabled": null,
+              "OnComponentEnabled": null,
+              "OnComponentFixedUpdate": null,
+              "OnComponentStart": null,
+              "OnComponentUpdate": null,
+              "Radius": 500,
+              "Shadows": true
+            }
+          ],
+          "Children": []
         }
       ]
     },
@@ -569,11 +769,11 @@
               "__version": 1,
               "BakedTexture": "scenes/butchers den_scene_data/envmap/bake_71db86ea-4a59-4231-b031-59fcb965627d.vtex",
               "Bounds": {
-                "Mins": "-248.7623,-313.9184,-1000",
-                "Maxs": "124.0318,313.7134,70.91409"
+                "Mins": "-248.7623,-313.9184,-76.24127",
+                "Maxs": "124.0318,313.7134,70.91405"
               },
               "DelayBetweenUpdates": 0.1,
-              "Feathering": 2.666668,
+              "Feathering": 8,
               "FrameInterval": 5,
               "MaxDistance": 512,
               "Mode": "Baked",
@@ -584,12 +784,12 @@
               "OnComponentFixedUpdate": null,
               "OnComponentStart": null,
               "OnComponentUpdate": null,
-              "Priority": 0,
+              "Priority": 1,
               "Projection": "Box",
               "Resolution": "Small",
               "Texture": "textures/cubemaps/default2.vtex",
               "TintColor": "1,1,1,1",
-              "UpdateStrategy": "OnEnabled",
+              "UpdateStrategy": "EveryFrame",
               "ZFar": 4096,
               "ZNear": 16
             }
@@ -624,7 +824,7 @@
                 "Maxs": "164.8107,133.5706,56.64725"
               },
               "DelayBetweenUpdates": 0.1,
-              "Feathering": -32,
+              "Feathering": 8,
               "FrameInterval": 5,
               "MaxDistance": 512,
               "Mode": "Baked",
@@ -675,7 +875,7 @@
                 "Maxs": "37.13259,55.56949,56.64725"
               },
               "DelayBetweenUpdates": 0.1,
-              "Feathering": -5.333334,
+              "Feathering": 8,
               "FrameInterval": 5,
               "MaxDistance": 512,
               "Mode": "Baked",
@@ -726,7 +926,7 @@
                 "Maxs": "37.13259,52.49603,56.64725"
               },
               "DelayBetweenUpdates": 0.1,
-              "Feathering": -5.333334,
+              "Feathering": 8,
               "FrameInterval": 5,
               "MaxDistance": 512,
               "Mode": "Baked",
@@ -777,7 +977,7 @@
                 "Maxs": "45.04065,55.14938,56.64725"
               },
               "DelayBetweenUpdates": 0.1,
-              "Feathering": -5.333334,
+              "Feathering": 8,
               "FrameInterval": 5,
               "MaxDistance": 512,
               "Mode": "Baked",
@@ -828,7 +1028,7 @@
                 "Maxs": "84.10806,37.33242,56.64725"
               },
               "DelayBetweenUpdates": 0.1,
-              "Feathering": -5.333334,
+              "Feathering": 8,
               "FrameInterval": 5,
               "MaxDistance": 512,
               "Mode": "Baked",
@@ -879,7 +1079,7 @@
                 "Maxs": "116.4128,107.3668,56.64725"
               },
               "DelayBetweenUpdates": 0.1,
-              "Feathering": -20.148148,
+              "Feathering": 8,
               "FrameInterval": 5,
               "MaxDistance": 512,
               "Mode": "Baked",
@@ -930,7 +1130,7 @@
                 "Maxs": "274.7577,58.28575,56.64725"
               },
               "DelayBetweenUpdates": 0.1,
-              "Feathering": 9.066666,
+              "Feathering": 8,
               "FrameInterval": 5,
               "MaxDistance": 512,
               "Mode": "Baked",
@@ -981,7 +1181,7 @@
                 "Maxs": "6000,6000,209.6395"
               },
               "DelayBetweenUpdates": 0.1,
-              "Feathering": 18.370369,
+              "Feathering": 8,
               "FrameInterval": 5,
               "MaxDistance": 512,
               "Mode": "Baked",
@@ -1028,11 +1228,215 @@
               "__version": 1,
               "BakedTexture": "scenes/butchers den_scene_data/envmap/bake_f87b2fe5-ebc1-4613-9651-6f5f16fe6d3a.vtex",
               "Bounds": {
-                "Mins": "-79.04867,-96.75305,-64.99096",
-                "Maxs": "231.2183,308.0356,62.72591"
+                "Mins": "-79.04867,-96.75305,-77.25137",
+                "Maxs": "231.2183,308.0356,62.72592"
               },
               "DelayBetweenUpdates": 0.1,
-              "Feathering": 12.740742,
+              "Feathering": 8,
+              "FrameInterval": 5,
+              "MaxDistance": 512,
+              "Mode": "Baked",
+              "MultiBounce": true,
+              "OnComponentDestroy": null,
+              "OnComponentDisabled": null,
+              "OnComponentEnabled": null,
+              "OnComponentFixedUpdate": null,
+              "OnComponentStart": null,
+              "OnComponentUpdate": null,
+              "Priority": 0,
+              "Projection": "Box",
+              "Resolution": "Small",
+              "Texture": "textures/cubemaps/default2.vtex",
+              "TintColor": "1,1,1,1",
+              "UpdateStrategy": "OnEnabled",
+              "ZFar": 4096,
+              "ZNear": 16
+            }
+          ],
+          "Children": []
+        },
+        {
+          "__guid": "ec65bac3-81c6-43e6-b9c8-c4b71e9f05a7",
+          "__version": 2,
+          "Flags": 0,
+          "Name": "Envmap Probe (1)",
+          "Position": "-1498.703,47.81536,43.10081",
+          "Rotation": "-0.008722663,0.00006068672,0.9999378,0.006956928",
+          "Scale": "1,1,1",
+          "Tags": "",
+          "Enabled": true,
+          "NetworkMode": 2,
+          "NetworkFlags": 0,
+          "NetworkOrphaned": 0,
+          "NetworkTransmit": true,
+          "OwnerTransfer": 1,
+          "Components": [
+            {
+              "__type": "Sandbox.EnvmapProbe",
+              "__guid": "48506769-48a0-4144-a535-ad68682a3b20",
+              "__enabled": true,
+              "Flags": 0,
+              "__version": 1,
+              "BakedTexture": "scenes/butchers den_scene_data/envmap/bake_48506769-48a0-4144-a535-ad68682a3b20.vtex",
+              "Bounds": {
+                "Mins": "-823.3684,-1236.157,-77.25134",
+                "Maxs": "924.1187,1179.413,389.9479"
+              },
+              "DelayBetweenUpdates": 0.1,
+              "Feathering": 8,
+              "FrameInterval": 5,
+              "MaxDistance": 512,
+              "Mode": "Baked",
+              "MultiBounce": true,
+              "OnComponentDestroy": null,
+              "OnComponentDisabled": null,
+              "OnComponentEnabled": null,
+              "OnComponentFixedUpdate": null,
+              "OnComponentStart": null,
+              "OnComponentUpdate": null,
+              "Priority": 0,
+              "Projection": "Box",
+              "Resolution": "Small",
+              "Texture": "textures/cubemaps/default2.vtex",
+              "TintColor": "1,1,1,1",
+              "UpdateStrategy": "OnEnabled",
+              "ZFar": 4096,
+              "ZNear": 16
+            }
+          ],
+          "Children": []
+        },
+        {
+          "__guid": "d3c55f75-9ffd-404d-b596-d853191a6a0f",
+          "__version": 2,
+          "Flags": 0,
+          "Name": "Envmap Probe (1)",
+          "Position": "90.99429,-849.3685,71.05255",
+          "Rotation": "-0.008722663,0.00006068672,0.9999378,0.006956928",
+          "Scale": "1,1,1",
+          "Tags": "",
+          "Enabled": true,
+          "NetworkMode": 2,
+          "NetworkFlags": 0,
+          "NetworkOrphaned": 0,
+          "NetworkTransmit": true,
+          "OwnerTransfer": 1,
+          "Components": [
+            {
+              "__type": "Sandbox.EnvmapProbe",
+              "__guid": "b1b36e88-10c9-4888-a646-71da4744ba6e",
+              "__enabled": true,
+              "Flags": 0,
+              "__version": 1,
+              "BakedTexture": "scenes/butchers den_scene_data/envmap/bake_b1b36e88-10c9-4888-a646-71da4744ba6e.vtex",
+              "Bounds": {
+                "Mins": "-2198.971,-632.8007,-77.25134",
+                "Maxs": "2131.345,1651.215,389.9479"
+              },
+              "DelayBetweenUpdates": 0.1,
+              "Feathering": 8,
+              "FrameInterval": 5,
+              "MaxDistance": 512,
+              "Mode": "Baked",
+              "MultiBounce": true,
+              "OnComponentDestroy": null,
+              "OnComponentDisabled": null,
+              "OnComponentEnabled": null,
+              "OnComponentFixedUpdate": null,
+              "OnComponentStart": null,
+              "OnComponentUpdate": null,
+              "Priority": 0,
+              "Projection": "Box",
+              "Resolution": "Small",
+              "Texture": "textures/cubemaps/default2.vtex",
+              "TintColor": "1,1,1,1",
+              "UpdateStrategy": "OnEnabled",
+              "ZFar": 4096,
+              "ZNear": 16
+            }
+          ],
+          "Children": []
+        },
+        {
+          "__guid": "57a40e40-58af-4760-8834-83e3511f884f",
+          "__version": 2,
+          "Flags": 0,
+          "Name": "Envmap Probe (1)",
+          "Position": "114.4102,833.3654,71.05256",
+          "Rotation": "-0.008722663,0.00006068672,0.9999378,0.006956928",
+          "Scale": "1,1,1",
+          "Tags": "",
+          "Enabled": true,
+          "NetworkMode": 2,
+          "NetworkFlags": 0,
+          "NetworkOrphaned": 0,
+          "NetworkTransmit": true,
+          "OwnerTransfer": 1,
+          "Components": [
+            {
+              "__type": "Sandbox.EnvmapProbe",
+              "__guid": "9a87f43b-f9b9-47e7-9635-1b8346aded0a",
+              "__enabled": true,
+              "Flags": 0,
+              "__version": 1,
+              "BakedTexture": "scenes/butchers den_scene_data/envmap/bake_9a87f43b-f9b9-47e7-9635-1b8346aded0a.vtex",
+              "Bounds": {
+                "Mins": "-2198.971,-1019.933,-77.25134",
+                "Maxs": "2131.345,566.4791,389.9479"
+              },
+              "DelayBetweenUpdates": 0.1,
+              "Feathering": 8,
+              "FrameInterval": 5,
+              "MaxDistance": 512,
+              "Mode": "Baked",
+              "MultiBounce": true,
+              "OnComponentDestroy": null,
+              "OnComponentDisabled": null,
+              "OnComponentEnabled": null,
+              "OnComponentFixedUpdate": null,
+              "OnComponentStart": null,
+              "OnComponentUpdate": null,
+              "Priority": 0,
+              "Projection": "Box",
+              "Resolution": "Small",
+              "Texture": "textures/cubemaps/default2.vtex",
+              "TintColor": "1,1,1,1",
+              "UpdateStrategy": "OnEnabled",
+              "ZFar": 4096,
+              "ZNear": 16
+            }
+          ],
+          "Children": []
+        },
+        {
+          "__guid": "6df7032c-71cf-4b0e-96f9-d80c30d9fbdf",
+          "__version": 2,
+          "Flags": 0,
+          "Name": "Envmap Probe (1)",
+          "Position": "1345.428,154.69,92.6937",
+          "Rotation": "-0.008722663,0.00006068672,0.9999378,0.006956928",
+          "Scale": "1,1,1",
+          "Tags": "",
+          "Enabled": true,
+          "NetworkMode": 2,
+          "NetworkFlags": 0,
+          "NetworkOrphaned": 0,
+          "NetworkTransmit": true,
+          "OwnerTransfer": 1,
+          "Components": [
+            {
+              "__type": "Sandbox.EnvmapProbe",
+              "__guid": "b6f1c487-467d-4703-9c6d-35d67e89d779",
+              "__enabled": true,
+              "Flags": 0,
+              "__version": 1,
+              "BakedTexture": "scenes/butchers den_scene_data/envmap/bake_b6f1c487-467d-4703-9c6d-35d67e89d779.vtex",
+              "Bounds": {
+                "Mins": "-1114.586,-1467.92,-77.25134",
+                "Maxs": "918.3608,1651.215,389.9479"
+              },
+              "DelayBetweenUpdates": 0.1,
+              "Feathering": 8,
               "FrameInterval": 5,
               "MaxDistance": 512,
               "Mode": "Baked",
@@ -1083,7 +1487,7 @@
                 "Maxs": "94.16508,60.0862,62.72591"
               },
               "DelayBetweenUpdates": 0.1,
-              "Feathering": 0,
+              "Feathering": 8,
               "FrameInterval": 5,
               "MaxDistance": 512,
               "Mode": "Baked",
@@ -1134,7 +1538,7 @@
                 "Maxs": "133.0076,125.8556,62.72591"
               },
               "DelayBetweenUpdates": 0.1,
-              "Feathering": 3.5555573,
+              "Feathering": 8,
               "FrameInterval": 5,
               "MaxDistance": 512,
               "Mode": "Baked",
@@ -1185,7 +1589,7 @@
                 "Maxs": "94.16508,75.16519,62.72591"
               },
               "DelayBetweenUpdates": 0.1,
-              "Feathering": -9.1851845,
+              "Feathering": 8,
               "FrameInterval": 5,
               "MaxDistance": 512,
               "Mode": "Baked",
@@ -1236,7 +1640,7 @@
                 "Maxs": "157.073,113.6721,62.72591"
               },
               "DelayBetweenUpdates": 0.1,
-              "Feathering": 12.740742,
+              "Feathering": 8,
               "FrameInterval": 5,
               "MaxDistance": 512,
               "Mode": "Baked",
@@ -1287,7 +1691,7 @@
                 "Maxs": "95.4131,75.27393,62.72591"
               },
               "DelayBetweenUpdates": 0.1,
-              "Feathering": -15.407408,
+              "Feathering": 8,
               "FrameInterval": 5,
               "MaxDistance": 512,
               "Mode": "Baked",
@@ -1338,7 +1742,7 @@
                 "Maxs": "175.7074,136.6122,62.72591"
               },
               "DelayBetweenUpdates": 0.1,
-              "Feathering": 2.370369,
+              "Feathering": 8,
               "FrameInterval": 5,
               "MaxDistance": 512,
               "Mode": "Baked",
@@ -1389,7 +1793,7 @@
                 "Maxs": "104.8887,55.80566,64.92798"
               },
               "DelayBetweenUpdates": 0.1,
-              "Feathering": 0,
+              "Feathering": 8,
               "FrameInterval": 5,
               "MaxDistance": 512,
               "Mode": "Baked",
@@ -1436,11 +1840,368 @@
               "__version": 1,
               "BakedTexture": "scenes/butchers den_scene_data/envmap/bake_89f59c2d-f098-4081-a3bf-3f8b7492a763.vtex",
               "Bounds": {
-                "Mins": "-104.3334,-39.96624,-67.3806",
-                "Maxs": "98.70854,39.73454,65.51025"
+                "Mins": "-104.3334,-39.96624,-71.13326",
+                "Maxs": "98.70853,39.73454,65.51024"
               },
               "DelayBetweenUpdates": 0.1,
-              "Feathering": 2.666668,
+              "Feathering": 8,
+              "FrameInterval": 5,
+              "MaxDistance": 512,
+              "Mode": "Baked",
+              "MultiBounce": true,
+              "OnComponentDestroy": null,
+              "OnComponentDisabled": null,
+              "OnComponentEnabled": null,
+              "OnComponentFixedUpdate": null,
+              "OnComponentStart": null,
+              "OnComponentUpdate": null,
+              "Priority": 0,
+              "Projection": "Box",
+              "Resolution": "Small",
+              "Texture": "textures/cubemaps/default2.vtex",
+              "TintColor": "1,1,1,1",
+              "UpdateStrategy": "OnEnabled",
+              "ZFar": 4096,
+              "ZNear": 16
+            }
+          ],
+          "Children": []
+        },
+        {
+          "__guid": "0bbfc694-2d78-41cd-b192-1f62dda2720c",
+          "__version": 2,
+          "Flags": 0,
+          "Name": "Envmap Probe (3)",
+          "Position": "-82.28708,25.8553,79.6308",
+          "Rotation": "-0.008722663,0.00006068672,0.9999378,0.006956928",
+          "Scale": "1,1,1",
+          "Tags": "",
+          "Enabled": true,
+          "NetworkMode": 2,
+          "NetworkFlags": 0,
+          "NetworkOrphaned": 0,
+          "NetworkTransmit": true,
+          "OwnerTransfer": 1,
+          "Components": [
+            {
+              "__type": "Sandbox.EnvmapProbe",
+              "__guid": "8addf7fb-3f92-4c5b-9fdc-c025ae411d70",
+              "__enabled": true,
+              "Flags": 0,
+              "__version": 1,
+              "BakedTexture": "scenes/butchers den_scene_data/envmap/bake_8addf7fb-3f92-4c5b-9fdc-c025ae411d70.vtex",
+              "Bounds": {
+                "Mins": "-248.2632,-39.96624,-74.49211",
+                "Maxs": "98.70856,39.73454,65.51024"
+              },
+              "DelayBetweenUpdates": 0.1,
+              "Feathering": 8,
+              "FrameInterval": 5,
+              "MaxDistance": 512,
+              "Mode": "Baked",
+              "MultiBounce": true,
+              "OnComponentDestroy": null,
+              "OnComponentDisabled": null,
+              "OnComponentEnabled": null,
+              "OnComponentFixedUpdate": null,
+              "OnComponentStart": null,
+              "OnComponentUpdate": null,
+              "Priority": 0,
+              "Projection": "Box",
+              "Resolution": "Small",
+              "Texture": "textures/cubemaps/default2.vtex",
+              "TintColor": "1,1,1,1",
+              "UpdateStrategy": "OnEnabled",
+              "ZFar": 4096,
+              "ZNear": 16
+            }
+          ],
+          "Children": []
+        },
+        {
+          "__guid": "e92fcfeb-338f-4b3a-89d0-7464a068e1ae",
+          "__version": 2,
+          "Flags": 0,
+          "Name": "Envmap Probe (3)",
+          "Position": "232.8463,-132.1806,85.16702",
+          "Rotation": "-0.008722663,0.00006068672,0.9999378,0.006956928",
+          "Scale": "1,1,1",
+          "Tags": "",
+          "Enabled": true,
+          "NetworkMode": 2,
+          "NetworkFlags": 0,
+          "NetworkOrphaned": 0,
+          "NetworkTransmit": true,
+          "OwnerTransfer": 1,
+          "Components": [
+            {
+              "__type": "Sandbox.EnvmapProbe",
+              "__guid": "f09fd7f3-dfb4-4d2d-af49-14bc69f25749",
+              "__enabled": true,
+              "Flags": 0,
+              "__version": 1,
+              "BakedTexture": "scenes/butchers den_scene_data/envmap/bake_f09fd7f3-dfb4-4d2d-af49-14bc69f25749.vtex",
+              "Bounds": {
+                "Mins": "-170.6447,-120.3758,-74.49211",
+                "Maxs": "153.5481,141.8994,65.51024"
+              },
+              "DelayBetweenUpdates": 0.1,
+              "Feathering": 8,
+              "FrameInterval": 5,
+              "MaxDistance": 512,
+              "Mode": "Baked",
+              "MultiBounce": true,
+              "OnComponentDestroy": null,
+              "OnComponentDisabled": null,
+              "OnComponentEnabled": null,
+              "OnComponentFixedUpdate": null,
+              "OnComponentStart": null,
+              "OnComponentUpdate": null,
+              "Priority": 0,
+              "Projection": "Box",
+              "Resolution": "Small",
+              "Texture": "textures/cubemaps/default2.vtex",
+              "TintColor": "1,1,1,1",
+              "UpdateStrategy": "OnEnabled",
+              "ZFar": 4096,
+              "ZNear": 16
+            }
+          ],
+          "Children": []
+        },
+        {
+          "__guid": "666dcd0d-b161-4eef-a4cd-e964c3dbf0c9",
+          "__version": 2,
+          "Flags": 0,
+          "Name": "Envmap Probe (3)",
+          "Position": "230.0257,-334.8857,85.16704",
+          "Rotation": "-0.008722663,0.00006068672,0.9999378,0.006956928",
+          "Scale": "1,1,1",
+          "Tags": "",
+          "Enabled": true,
+          "NetworkMode": 2,
+          "NetworkFlags": 0,
+          "NetworkOrphaned": 0,
+          "NetworkTransmit": true,
+          "OwnerTransfer": 1,
+          "Components": [
+            {
+              "__type": "Sandbox.EnvmapProbe",
+              "__guid": "15ed3d39-550b-450d-920c-f9529ca357c8",
+              "__enabled": true,
+              "Flags": 0,
+              "__version": 1,
+              "BakedTexture": "scenes/butchers den_scene_data/envmap/bake_15ed3d39-550b-450d-920c-f9529ca357c8.vtex",
+              "Bounds": {
+                "Mins": "-281.0924,-120.3758,-111.4089",
+                "Maxs": "153.5481,141.8994,65.51024"
+              },
+              "DelayBetweenUpdates": 0.1,
+              "Feathering": 8,
+              "FrameInterval": 5,
+              "MaxDistance": 512,
+              "Mode": "Baked",
+              "MultiBounce": true,
+              "OnComponentDestroy": null,
+              "OnComponentDisabled": null,
+              "OnComponentEnabled": null,
+              "OnComponentFixedUpdate": null,
+              "OnComponentStart": null,
+              "OnComponentUpdate": null,
+              "Priority": 0,
+              "Projection": "Box",
+              "Resolution": "Small",
+              "Texture": "textures/cubemaps/default2.vtex",
+              "TintColor": "1,1,1,1",
+              "UpdateStrategy": "OnEnabled",
+              "ZFar": 4096,
+              "ZNear": 16
+            }
+          ],
+          "Children": []
+        },
+        {
+          "__guid": "393c61e6-fa71-4ab1-a464-25267366f9a0",
+          "__version": 2,
+          "Flags": 0,
+          "Name": "Envmap Probe (3)",
+          "Position": "-377.8471,-326.4269,74.56",
+          "Rotation": "-0.008722663,0.00006068672,0.9999378,0.006956928",
+          "Scale": "1,1,1",
+          "Tags": "",
+          "Enabled": true,
+          "NetworkMode": 2,
+          "NetworkFlags": 0,
+          "NetworkOrphaned": 0,
+          "NetworkTransmit": true,
+          "OwnerTransfer": 1,
+          "Components": [
+            {
+              "__type": "Sandbox.EnvmapProbe",
+              "__guid": "364ce72e-374e-42e6-978a-c9d17bf7d533",
+              "__enabled": true,
+              "Flags": 0,
+              "__version": 1,
+              "BakedTexture": "scenes/butchers den_scene_data/envmap/bake_364ce72e-374e-42e6-978a-c9d17bf7d533.vtex",
+              "Bounds": {
+                "Mins": "-281.0924,-49.23755,-111.4089",
+                "Maxs": "327.1606,130.5918,116.3397"
+              },
+              "DelayBetweenUpdates": 0.1,
+              "Feathering": 8,
+              "FrameInterval": 5,
+              "MaxDistance": 512,
+              "Mode": "Baked",
+              "MultiBounce": true,
+              "OnComponentDestroy": null,
+              "OnComponentDisabled": null,
+              "OnComponentEnabled": null,
+              "OnComponentFixedUpdate": null,
+              "OnComponentStart": null,
+              "OnComponentUpdate": null,
+              "Priority": 0,
+              "Projection": "Box",
+              "Resolution": "Small",
+              "Texture": "textures/cubemaps/default2.vtex",
+              "TintColor": "1,1,1,1",
+              "UpdateStrategy": "OnEnabled",
+              "ZFar": 4096,
+              "ZNear": 16
+            }
+          ],
+          "Children": []
+        },
+        {
+          "__guid": "19c15399-f872-4d85-810a-6fb396653932",
+          "__version": 2,
+          "Flags": 0,
+          "Name": "Envmap Probe (3)",
+          "Position": "235.4174,52.58534,85.16702",
+          "Rotation": "-0.008722663,0.00006068672,0.9999378,0.006956928",
+          "Scale": "1,1,1",
+          "Tags": "",
+          "Enabled": true,
+          "NetworkMode": 2,
+          "NetworkFlags": 0,
+          "NetworkOrphaned": 0,
+          "NetworkTransmit": true,
+          "OwnerTransfer": 1,
+          "Components": [
+            {
+              "__type": "Sandbox.EnvmapProbe",
+              "__guid": "76cd6c27-c266-4d4f-8319-2348888598d6",
+              "__enabled": true,
+              "Flags": 0,
+              "__version": 1,
+              "BakedTexture": "scenes/butchers den_scene_data/envmap/bake_76cd6c27-c266-4d4f-8319-2348888598d6.vtex",
+              "Bounds": {
+                "Mins": "-170.6447,-120.3758,-74.49211",
+                "Maxs": "153.5481,141.8994,65.51024"
+              },
+              "DelayBetweenUpdates": 0.1,
+              "Feathering": 8,
+              "FrameInterval": 5,
+              "MaxDistance": 512,
+              "Mode": "Baked",
+              "MultiBounce": true,
+              "OnComponentDestroy": null,
+              "OnComponentDisabled": null,
+              "OnComponentEnabled": null,
+              "OnComponentFixedUpdate": null,
+              "OnComponentStart": null,
+              "OnComponentUpdate": null,
+              "Priority": 0,
+              "Projection": "Box",
+              "Resolution": "Small",
+              "Texture": "textures/cubemaps/default2.vtex",
+              "TintColor": "1,1,1,1",
+              "UpdateStrategy": "OnEnabled",
+              "ZFar": 4096,
+              "ZNear": 16
+            }
+          ],
+          "Children": []
+        },
+        {
+          "__guid": "9e1169c4-133c-43f0-b6b1-f7f9d68733a6",
+          "__version": 2,
+          "Flags": 0,
+          "Name": "Envmap Probe (3)",
+          "Position": "238.3624,264.222,85.16702",
+          "Rotation": "-0.008722663,0.00006068672,0.9999378,0.006956928",
+          "Scale": "1,1,1",
+          "Tags": "",
+          "Enabled": true,
+          "NetworkMode": 2,
+          "NetworkFlags": 0,
+          "NetworkOrphaned": 0,
+          "NetworkTransmit": true,
+          "OwnerTransfer": 1,
+          "Components": [
+            {
+              "__type": "Sandbox.EnvmapProbe",
+              "__guid": "2d9d23e4-43e2-4227-a91c-2537cd77c32a",
+              "__enabled": true,
+              "Flags": 0,
+              "__version": 1,
+              "BakedTexture": "scenes/butchers den_scene_data/envmap/bake_2d9d23e4-43e2-4227-a91c-2537cd77c32a.vtex",
+              "Bounds": {
+                "Mins": "-105.8468,-120.3758,-74.49211",
+                "Maxs": "113.3892,141.8994,65.51024"
+              },
+              "DelayBetweenUpdates": 0.1,
+              "Feathering": 8,
+              "FrameInterval": 5,
+              "MaxDistance": 512,
+              "Mode": "Baked",
+              "MultiBounce": true,
+              "OnComponentDestroy": null,
+              "OnComponentDisabled": null,
+              "OnComponentEnabled": null,
+              "OnComponentFixedUpdate": null,
+              "OnComponentStart": null,
+              "OnComponentUpdate": null,
+              "Priority": 0,
+              "Projection": "Box",
+              "Resolution": "Small",
+              "Texture": "textures/cubemaps/default2.vtex",
+              "TintColor": "1,1,1,1",
+              "UpdateStrategy": "OnEnabled",
+              "ZFar": 4096,
+              "ZNear": 16
+            }
+          ],
+          "Children": []
+        },
+        {
+          "__guid": "cb08ab97-4e53-455f-b395-c725e0d2a777",
+          "__version": 2,
+          "Flags": 0,
+          "Name": "Envmap Probe (3)",
+          "Position": "-82.88335,96.74777,170.3385",
+          "Rotation": "-0.008722663,0.00006068672,0.9999378,0.006956928",
+          "Scale": "1,1,1",
+          "Tags": "",
+          "Enabled": true,
+          "NetworkMode": 2,
+          "NetworkFlags": 0,
+          "NetworkOrphaned": 0,
+          "NetworkTransmit": true,
+          "OwnerTransfer": 1,
+          "Components": [
+            {
+              "__type": "Sandbox.EnvmapProbe",
+              "__guid": "4db87bd1-3c0a-413b-be69-1a12709c4b03",
+              "__enabled": true,
+              "Flags": 0,
+              "__version": 1,
+              "BakedTexture": "scenes/butchers den_scene_data/envmap/bake_4db87bd1-3c0a-413b-be69-1a12709c4b03.vtex",
+              "Bounds": {
+                "Mins": "-254.5941,-39.96624,-181.7597",
+                "Maxs": "25.80724,39.73454,110.4844"
+              },
+              "DelayBetweenUpdates": 0.1,
+              "Feathering": 8,
               "FrameInterval": 5,
               "MaxDistance": 512,
               "Mode": "Baked",
@@ -1633,32 +2394,7 @@
               "__version": 3,
               "AttenuationAngle": 1,
               "ColorMix": 1,
-              "ColorTint": {
-                "Type": "Constant",
-                "Evaluation": "Life",
-                "GradientA": {
-                  "blend": "Linear",
-                  "color": [
-                    {
-                      "t": 0.5,
-                      "c": "1,1,1,1"
-                    }
-                  ],
-                  "alpha": []
-                },
-                "GradientB": {
-                  "blend": "Linear",
-                  "color": [
-                    {
-                      "t": 0.5,
-                      "c": "1,1,1,1"
-                    }
-                  ],
-                  "alpha": []
-                },
-                "ConstantA": "1,1,1,1",
-                "ConstantB": "1,1,1,1"
-              },
+              "ColorTint": "1,1,1,1",
               "Decals": [
                 "decals/blood/blood_splatter_03.decal"
               ],
@@ -1707,32 +2443,7 @@
               "__version": 3,
               "AttenuationAngle": 1,
               "ColorMix": 1,
-              "ColorTint": {
-                "Type": "Constant",
-                "Evaluation": "Life",
-                "GradientA": {
-                  "blend": "Linear",
-                  "color": [
-                    {
-                      "t": 0.5,
-                      "c": "1,1,1,1"
-                    }
-                  ],
-                  "alpha": []
-                },
-                "GradientB": {
-                  "blend": "Linear",
-                  "color": [
-                    {
-                      "t": 0.5,
-                      "c": "1,1,1,1"
-                    }
-                  ],
-                  "alpha": []
-                },
-                "ConstantA": "1,1,1,1",
-                "ConstantB": "1,1,1,1"
-              },
+              "ColorTint": "1,1,1,1",
               "Decals": [
                 "decals/blood/blood_splatter_01.decal"
               ],
@@ -1781,32 +2492,7 @@
               "__version": 3,
               "AttenuationAngle": 1,
               "ColorMix": 1,
-              "ColorTint": {
-                "Type": "Constant",
-                "Evaluation": "Life",
-                "GradientA": {
-                  "blend": "Linear",
-                  "color": [
-                    {
-                      "t": 0.5,
-                      "c": "1,1,1,1"
-                    }
-                  ],
-                  "alpha": []
-                },
-                "GradientB": {
-                  "blend": "Linear",
-                  "color": [
-                    {
-                      "t": 0.5,
-                      "c": "1,1,1,1"
-                    }
-                  ],
-                  "alpha": []
-                },
-                "ConstantA": "1,1,1,1",
-                "ConstantB": "1,1,1,1"
-              },
+              "ColorTint": "1,1,1,1",
               "Decals": [
                 "decals/blood/blood_splatter_01.decal"
               ],
@@ -1855,32 +2541,7 @@
               "__version": 3,
               "AttenuationAngle": 1,
               "ColorMix": 1,
-              "ColorTint": {
-                "Type": "Constant",
-                "Evaluation": "Life",
-                "GradientA": {
-                  "blend": "Linear",
-                  "color": [
-                    {
-                      "t": 0.5,
-                      "c": "1,1,1,1"
-                    }
-                  ],
-                  "alpha": []
-                },
-                "GradientB": {
-                  "blend": "Linear",
-                  "color": [
-                    {
-                      "t": 0.5,
-                      "c": "1,1,1,1"
-                    }
-                  ],
-                  "alpha": []
-                },
-                "ConstantA": "1,1,1,1",
-                "ConstantB": "1,1,1,1"
-              },
+              "ColorTint": "1,1,1,1",
               "Decals": [
                 "decals/blood/blood_splatter_01.decal"
               ],
@@ -1929,32 +2590,7 @@
               "__version": 3,
               "AttenuationAngle": 1,
               "ColorMix": 1,
-              "ColorTint": {
-                "Type": "Constant",
-                "Evaluation": "Life",
-                "GradientA": {
-                  "blend": "Linear",
-                  "color": [
-                    {
-                      "t": 0.5,
-                      "c": "1,1,1,1"
-                    }
-                  ],
-                  "alpha": []
-                },
-                "GradientB": {
-                  "blend": "Linear",
-                  "color": [
-                    {
-                      "t": 0.5,
-                      "c": "1,1,1,1"
-                    }
-                  ],
-                  "alpha": []
-                },
-                "ConstantA": "1,1,1,1",
-                "ConstantB": "1,1,1,1"
-              },
+              "ColorTint": "1,1,1,1",
               "Decals": [
                 "decals/blood/blood_splatter_01.decal"
               ],
@@ -2003,32 +2639,7 @@
               "__version": 3,
               "AttenuationAngle": 1,
               "ColorMix": 1,
-              "ColorTint": {
-                "Type": "Constant",
-                "Evaluation": "Life",
-                "GradientA": {
-                  "blend": "Linear",
-                  "color": [
-                    {
-                      "t": 0.5,
-                      "c": "1,1,1,1"
-                    }
-                  ],
-                  "alpha": []
-                },
-                "GradientB": {
-                  "blend": "Linear",
-                  "color": [
-                    {
-                      "t": 0.5,
-                      "c": "1,1,1,1"
-                    }
-                  ],
-                  "alpha": []
-                },
-                "ConstantA": "1,1,1,1",
-                "ConstantB": "1,1,1,1"
-              },
+              "ColorTint": "1,1,1,1",
               "Decals": [
                 "decals/blood/blood_splatter_01.decal"
               ],
@@ -2095,6 +2706,7 @@
               "Flags": 0,
               "Color": "0,1,0.53333,1",
               "MaterialOverride": null,
+              "MaxHealth": 1000,
               "Model": "models/zs/sigil/sigil_base.vmdl",
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
@@ -2107,243 +2719,6 @@
           "Children": []
         }
       ]
-    },
-    {
-      "__guid": "f226ab75-e0da-42c4-a9f0-01ba8bc4b304",
-      "__version": 2,
-      "Flags": 0,
-      "Name": "Point Light (2)",
-      "Position": "510.9785,-109.9761,60.1454",
-      "Rotation": "-0.00001240522,0.00004968047,0.1221087,0.9925166",
-      "Scale": "1,1,1",
-      "Tags": "light_point,light",
-      "Enabled": false,
-      "NetworkMode": 2,
-      "NetworkFlags": 0,
-      "NetworkOrphaned": 0,
-      "NetworkTransmit": true,
-      "OwnerTransfer": 1,
-      "Components": [
-        {
-          "__type": "Sandbox.PointLight",
-          "__guid": "59212bd0-fde0-4373-92c3-ff0c864d2b83",
-          "__enabled": true,
-          "Flags": 0,
-          "Attenuation": 1,
-          "FogMode": "Enabled",
-          "FogStrength": 1,
-          "LightColor": "0.91373,0.98039,1,1",
-          "OnComponentDestroy": null,
-          "OnComponentDisabled": null,
-          "OnComponentEnabled": null,
-          "OnComponentFixedUpdate": null,
-          "OnComponentStart": null,
-          "OnComponentUpdate": null,
-          "Radius": 400,
-          "Shadows": true
-        }
-      ],
-      "Children": []
-    },
-    {
-      "__guid": "6c628773-b5c7-4b5e-bd27-73d97061f45c",
-      "__version": 2,
-      "Flags": 0,
-      "Name": "Spot Light (11)",
-      "Position": "431.9999,57.99991,156",
-      "Rotation": "0,0,0.7071067,0.7071068",
-      "Scale": "1,1,1",
-      "Tags": "light_spot,light",
-      "Enabled": true,
-      "NetworkMode": 2,
-      "NetworkFlags": 0,
-      "NetworkOrphaned": 0,
-      "NetworkTransmit": true,
-      "OwnerTransfer": 1,
-      "Components": [
-        {
-          "__type": "Sandbox.SpotLight",
-          "__guid": "107eead5-7219-460d-bd88-54fa96ee73e3",
-          "__enabled": true,
-          "Flags": 0,
-          "Attenuation": 4.4166665,
-          "ConeInner": 15,
-          "ConeOuter": 68.25,
-          "Cookie": null,
-          "FogMode": "Enabled",
-          "FogStrength": 1,
-          "LightColor": "0.73023,0.53324,0.33625,1",
-          "OnComponentDestroy": null,
-          "OnComponentDisabled": null,
-          "OnComponentEnabled": null,
-          "OnComponentFixedUpdate": null,
-          "OnComponentStart": null,
-          "OnComponentUpdate": null,
-          "Radius": 500,
-          "Shadows": true
-        }
-      ],
-      "Children": []
-    },
-    {
-      "__guid": "0bc7cd7f-2a45-423e-ac27-7558142f4c88",
-      "__version": 2,
-      "Flags": 0,
-      "Name": "Spot Light (12)",
-      "Position": "148,57.99997,156",
-      "Rotation": "0,0,0.7071067,0.7071068",
-      "Scale": "1,1,1",
-      "Tags": "light_spot,light",
-      "Enabled": true,
-      "NetworkMode": 2,
-      "NetworkFlags": 0,
-      "NetworkOrphaned": 0,
-      "NetworkTransmit": true,
-      "OwnerTransfer": 1,
-      "Components": [
-        {
-          "__type": "Sandbox.SpotLight",
-          "__guid": "9fa10337-97ac-4026-8046-cb1247e8a933",
-          "__enabled": true,
-          "Flags": 0,
-          "Attenuation": 4.4166665,
-          "ConeInner": 15,
-          "ConeOuter": 68.25,
-          "Cookie": null,
-          "FogMode": "Enabled",
-          "FogStrength": 1,
-          "LightColor": "0.73023,0.53324,0.33625,1",
-          "OnComponentDestroy": null,
-          "OnComponentDisabled": null,
-          "OnComponentEnabled": null,
-          "OnComponentFixedUpdate": null,
-          "OnComponentStart": null,
-          "OnComponentUpdate": null,
-          "Radius": 500,
-          "Shadows": true
-        }
-      ],
-      "Children": []
-    },
-    {
-      "__guid": "dcfa99bf-c072-4637-bc6d-111457716646",
-      "__version": 2,
-      "Flags": 0,
-      "Name": "Spot Light (13)",
-      "Position": "621.9999,111.9998,156",
-      "Rotation": "0,0,0.9999999,0.0000001490116",
-      "Scale": "1,1,1",
-      "Tags": "light_spot,light",
-      "Enabled": true,
-      "NetworkMode": 2,
-      "NetworkFlags": 0,
-      "NetworkOrphaned": 0,
-      "NetworkTransmit": true,
-      "OwnerTransfer": 1,
-      "Components": [
-        {
-          "__type": "Sandbox.SpotLight",
-          "__guid": "7566c2a8-1651-47c3-a05e-4bb7dc86572a",
-          "__enabled": true,
-          "Flags": 0,
-          "Attenuation": 4.4166665,
-          "ConeInner": 15,
-          "ConeOuter": 68.25,
-          "Cookie": null,
-          "FogMode": "Enabled",
-          "FogStrength": 1,
-          "LightColor": "0.73023,0.53324,0.33625,1",
-          "OnComponentDestroy": null,
-          "OnComponentDisabled": null,
-          "OnComponentEnabled": null,
-          "OnComponentFixedUpdate": null,
-          "OnComponentStart": null,
-          "OnComponentUpdate": null,
-          "Radius": 500,
-          "Shadows": true
-        }
-      ],
-      "Children": []
-    },
-    {
-      "__guid": "c3e8d7a2-4a43-49a9-964c-2dc72b8961a6",
-      "__version": 2,
-      "Flags": 0,
-      "Name": "Spot Light (14)",
-      "Position": "-86,12,92",
-      "Rotation": "0,-0.258819,0,0.9659258",
-      "Scale": "1,1,1",
-      "Tags": "light_spot,light",
-      "Enabled": true,
-      "NetworkMode": 2,
-      "NetworkFlags": 0,
-      "NetworkOrphaned": 0,
-      "NetworkTransmit": true,
-      "OwnerTransfer": 1,
-      "Components": [
-        {
-          "__type": "Sandbox.SpotLight",
-          "__guid": "b1085844-df06-4c68-ba9b-65507e676b89",
-          "__enabled": true,
-          "Flags": 0,
-          "Attenuation": 1,
-          "ConeInner": 15,
-          "ConeOuter": 66.25,
-          "Cookie": null,
-          "FogMode": "Enabled",
-          "FogStrength": 1,
-          "LightColor": "1,0.7451,0.53333,1",
-          "OnComponentDestroy": null,
-          "OnComponentDisabled": null,
-          "OnComponentEnabled": null,
-          "OnComponentFixedUpdate": null,
-          "OnComponentStart": null,
-          "OnComponentUpdate": null,
-          "Radius": 500,
-          "Shadows": true
-        }
-      ],
-      "Children": []
-    },
-    {
-      "__guid": "ade38a2e-aaba-457f-afd5-e87da1240ee7",
-      "__version": 2,
-      "Flags": 0,
-      "Name": "Spot Light (15)",
-      "Position": "100,388,92",
-      "Rotation": "0,0,-1,0.0000001947072",
-      "Scale": "1,1,1",
-      "Tags": "light_spot,light",
-      "Enabled": true,
-      "NetworkMode": 2,
-      "NetworkFlags": 0,
-      "NetworkOrphaned": 0,
-      "NetworkTransmit": true,
-      "OwnerTransfer": 1,
-      "Components": [
-        {
-          "__type": "Sandbox.SpotLight",
-          "__guid": "3d8f1e38-9623-44a7-b41d-11b7bed27002",
-          "__enabled": true,
-          "Flags": 0,
-          "Attenuation": 4.0277777,
-          "ConeInner": 10.833334,
-          "ConeOuter": 77.083336,
-          "Cookie": null,
-          "FogMode": "Enabled",
-          "FogStrength": 1,
-          "LightColor": "0.67442,0.60541,0.50189,1",
-          "OnComponentDestroy": null,
-          "OnComponentDisabled": null,
-          "OnComponentEnabled": null,
-          "OnComponentFixedUpdate": null,
-          "OnComponentStart": null,
-          "OnComponentUpdate": null,
-          "Radius": 500,
-          "Shadows": true
-        }
-      ],
-      "Children": []
     }
   ],
   "SceneProperties": {
@@ -2361,14 +2736,22 @@
       "AgentStepSize": 18,
       "AgentMaxSlope": 40,
       "ExcludedBodies": "",
-      "IncludedBodies": ""
+      "IncludedBodies": "",
+      "CustomBounds": false
+    },
+    "GameObjectSystems": {
+      "Sandbox.Clutter.ClutterGridSystem": {
+        "Storage": {
+          "$blob": "78a5dce5-4391-4437-9de4-9b22d181661e"
+        }
+      }
     }
   },
   "ResourceVersion": 3,
   "Title": null,
   "Description": null,
   "__references": [
-    "fss.bloodsigil#154745"
+    "fss.bloodsigil#166536"
   ],
   "__version": 3
 }
