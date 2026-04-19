@@ -3,7 +3,7 @@
     "Enabled": false,
     "ProjectConfig": {
       "Title": "Rail",
-      "Type": "material",
+      "Type": null,
       "Org": "local",
       "Ident": "rail",
       "Schema": 0,
@@ -15,9 +15,7 @@
       ],
       "Mounts": null,
       "IsStandaloneOnly": false,
-      "Metadata": {
-        "SingleAssetSource": "models/architecture/rail/rail.vmat"
-      }
+      "Metadata": {}
     }
   }
 }

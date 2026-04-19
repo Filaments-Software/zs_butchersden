@@ -61,8 +61,8 @@
           "__version": 2,
           "Flags": 0,
           "Name": "2D Skybox",
-          "Position": "646.700073,565.458374,-181.931",
-          "Rotation": "0,0,-0.707106709,0.707106829",
+          "Position": "-1662.72559,481.360046,78.2590179",
+          "Rotation": "0,0,0.382683337,0.923879564",
           "Scale": "1,1,1",
           "Tags": "skybox",
           "Enabled": true,
@@ -83,7 +83,7 @@
               "OnComponentFixedUpdate": null,
               "OnComponentStart": null,
               "OnComponentUpdate": null,
-              "SkyIndirectLighting": false,
+              "SkyIndirectLighting": true,
               "SkyMaterial": "materials/sky/sky_004.vmat",
               "Tint": "1,1,1,1"
             }
@@ -113,7 +113,7 @@
               "Flags": 0,
               "FogMode": "Enabled",
               "FogStrength": 1,
-              "LightColor": "1,0.7451,0.53333,1",
+              "LightColor": "0.9814,0.66476,0.40169,1",
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
               "OnComponentEnabled": null,
@@ -122,7 +122,7 @@
               "OnComponentUpdate": null,
               "ShadowBias": 0.0005,
               "ShadowCascadeCount": 4,
-              "ShadowCascadeSplitRatio": 0.91,
+              "ShadowCascadeSplitRatio": 0.93,
               "ShadowHardness": 0,
               "Shadows": true,
               "SkyColor": "0.02326,0.01215,0.00292,0.17",
@@ -195,7 +195,7 @@
               "Rotation": "0,0,0,1",
               "Scale": "1,1,1",
               "Tags": "",
-              "Enabled": false,
+              "Enabled": true,
               "NetworkMode": 2,
               "NetworkFlags": 0,
               "NetworkOrphaned": 0,
@@ -212,7 +212,7 @@
                   "Rotation": "0,-0.707106829,0,0.707106829",
                   "Scale": "1,1,1",
                   "Tags": "",
-                  "Enabled": true,
+                  "Enabled": false,
                   "NetworkMode": 2,
                   "NetworkFlags": 0,
                   "NetworkOrphaned": 0,
@@ -229,9 +229,9 @@
                         "Maxs": "2685.19995,1877.09399,615.706421"
                       },
                       "Contrast": 1,
-                      "DistanceTexture": null,
+                      "DistanceTexture": "scenes/butchers den_scene_data/ddgi/indirect light volume_distance_5143b424-6c02-4616-b94b-cfec008a4bb2.vtex",
                       "InsideGeometry": "Relocate",
-                      "IrradianceTexture": null,
+                      "IrradianceTexture": "scenes/butchers den_scene_data/ddgi/indirect light volume_irradiance_5143b424-6c02-4616-b94b-cfec008a4bb2.vtex",
                       "NormalBias": 2,
                       "OnComponentDestroy": null,
                       "OnComponentDisabled": null,
@@ -239,8 +239,8 @@
                       "OnComponentFixedUpdate": null,
                       "OnComponentStart": null,
                       "OnComponentUpdate": null,
-                      "ProbeDensity": 6,
-                      "RelocationTexture": null
+                      "ProbeDensity": 3,
+                      "RelocationTexture": "scenes/butchers den_scene_data/ddgi/indirect light volume_relocation_5143b424-6c02-4616-b94b-cfec008a4bb2.vtex"
                     }
                   ],
                   "Children": []
@@ -254,7 +254,7 @@
                   "Rotation": "0,0,0,1",
                   "Scale": "1,1,1",
                   "Tags": "",
-                  "Enabled": true,
+                  "Enabled": false,
                   "NetworkMode": 2,
                   "NetworkFlags": 0,
                   "NetworkOrphaned": 0,
@@ -296,7 +296,7 @@
                   "Rotation": "0,0,0,1",
                   "Scale": "1,1,1",
                   "Tags": "",
-                  "Enabled": true,
+                  "Enabled": false,
                   "NetworkMode": 2,
                   "NetworkFlags": 0,
                   "NetworkOrphaned": 0,
@@ -325,6 +325,48 @@
                       "OnComponentUpdate": null,
                       "ProbeDensity": 28,
                       "RelocationTexture": null
+                    }
+                  ],
+                  "Children": []
+                },
+                {
+                  "__guid": "1de3aa7d-893c-4adb-b4c5-03330cd7ce9e",
+                  "__version": 2,
+                  "Flags": 0,
+                  "Name": "Indirect Light Volume",
+                  "Position": "-9.15527344E-05,-3.05473804E-05,-495.856201",
+                  "Rotation": "0,0,0,1",
+                  "Scale": "1,1,1",
+                  "Tags": "",
+                  "Enabled": false,
+                  "NetworkMode": 2,
+                  "NetworkFlags": 0,
+                  "NetworkOrphaned": 0,
+                  "NetworkTransmit": true,
+                  "OwnerTransfer": 1,
+                  "Components": [
+                    {
+                      "__type": "Sandbox.IndirectLightVolume",
+                      "__guid": "7e22b7f9-6dd1-4292-b07e-26396fc9578b",
+                      "__enabled": true,
+                      "Flags": 0,
+                      "Bounds": {
+                        "Mins": "-194.684402,-189.509598,-153.895096",
+                        "Maxs": "259.72879,744.117676,269.410309"
+                      },
+                      "Contrast": 1,
+                      "DistanceTexture": "scenes/butchers den_scene_data/ddgi/indirect light volume_distance_7e22b7f9-6dd1-4292-b07e-26396fc9578b.vtex",
+                      "InsideGeometry": "Deactivate",
+                      "IrradianceTexture": "scenes/butchers den_scene_data/ddgi/indirect light volume_irradiance_7e22b7f9-6dd1-4292-b07e-26396fc9578b.vtex",
+                      "NormalBias": 5.220884,
+                      "OnComponentDestroy": null,
+                      "OnComponentDisabled": null,
+                      "OnComponentEnabled": null,
+                      "OnComponentFixedUpdate": null,
+                      "OnComponentStart": null,
+                      "OnComponentUpdate": null,
+                      "ProbeDensity": 15,
+                      "RelocationTexture": "scenes/butchers den_scene_data/ddgi/indirect light volume_relocation_7e22b7f9-6dd1-4292-b07e-26396fc9578b.vtex"
                     }
                   ],
                   "Children": []
@@ -370,7 +412,7 @@
                       "__enabled": true,
                       "Flags": 0,
                       "__version": 1,
-                      "BakedTexture": "scenes/butchers den_scene_data/envmap/bake_71db86ea-4a59-4231-b031-59fcb965627d.vtex",
+                      "BakedTexture": null,
                       "Bounds": {
                         "Mins": "-248.762299,-313.918396,-76.241272",
                         "Maxs": "124.031799,313.713409,70.9140472"
@@ -421,7 +463,7 @@
                       "__enabled": true,
                       "Flags": 0,
                       "__version": 1,
-                      "BakedTexture": "scenes/butchers den_scene_data/envmap/bake_e674ce13-81d6-41b8-87ee-e1f7814a3095.vtex",
+                      "BakedTexture": null,
                       "Bounds": {
                         "Mins": "-82.5118027,-131.334198,-74.4271469",
                         "Maxs": "164.810699,133.570602,56.6472511"
@@ -472,7 +514,7 @@
                       "__enabled": true,
                       "Flags": 0,
                       "__version": 1,
-                      "BakedTexture": "scenes/butchers den_scene_data/envmap/bake_96105aae-26d6-471e-8a6b-33770af2dabb.vtex",
+                      "BakedTexture": null,
                       "Bounds": {
                         "Mins": "-36.547699,-77.117363,-74.4271469",
                         "Maxs": "37.1325912,55.5694885,56.6472511"
@@ -523,7 +565,7 @@
                       "__enabled": true,
                       "Flags": 0,
                       "__version": 1,
-                      "BakedTexture": "scenes/butchers den_scene_data/envmap/bake_3902e7fd-41ac-48d5-839c-3fc59ed31e59.vtex",
+                      "BakedTexture": null,
                       "Bounds": {
                         "Mins": "-36.547699,-78.9387207,-74.4271469",
                         "Maxs": "37.1325912,52.4960289,56.6472511"
@@ -574,7 +616,7 @@
                       "__enabled": true,
                       "Flags": 0,
                       "__version": 1,
-                      "BakedTexture": "scenes/butchers den_scene_data/envmap/bake_29c34afe-f4e4-4514-99f8-6a93a837a98e.vtex",
+                      "BakedTexture": null,
                       "Bounds": {
                         "Mins": "-35.2190018,-30.0862694,-74.4271469",
                         "Maxs": "45.0406494,55.1493797,56.6472511"
@@ -625,7 +667,7 @@
                       "__enabled": true,
                       "Flags": 0,
                       "__version": 1,
-                      "BakedTexture": "scenes/butchers den_scene_data/envmap/bake_586fcf6c-d3f3-4f07-94e4-61217ff11b55.vtex",
+                      "BakedTexture": null,
                       "Bounds": {
                         "Mins": "-98.7433624,-35.6052399,-74.4271469",
                         "Maxs": "84.1080627,37.3324203,56.6472511"
@@ -676,7 +718,7 @@
                       "__enabled": true,
                       "Flags": 0,
                       "__version": 1,
-                      "BakedTexture": "scenes/butchers den_scene_data/envmap/bake_fc0db0f3-348f-4e24-8fed-6f114980885b.vtex",
+                      "BakedTexture": null,
                       "Bounds": {
                         "Mins": "-148.813202,-147.739304,-74.4271469",
                         "Maxs": "116.412804,107.366798,56.6472511"
@@ -727,7 +769,7 @@
                       "__enabled": true,
                       "Flags": 0,
                       "__version": 1,
-                      "BakedTexture": "scenes/butchers den_scene_data/envmap/bake_a56308ec-4034-42bb-a272-1e4cf92afec4.vtex",
+                      "BakedTexture": null,
                       "Bounds": {
                         "Mins": "-243.6698,-67.3605194,-76.0754929",
                         "Maxs": "274.75769,58.2857513,56.6472511"
@@ -778,10 +820,10 @@
                       "__enabled": true,
                       "Flags": 0,
                       "__version": 1,
-                      "BakedTexture": "scenes/butchers den_scene_data/envmap/bake_7b8e4fe2-2ab9-4e8f-85ad-e3b7124ad156.vtex",
+                      "BakedTexture": null,
                       "Bounds": {
                         "Mins": "-6239.04492,-6209.73193,-571.654114",
-                        "Maxs": "6000,6000,209.639496"
+                        "Maxs": "6000,6000.00049,312.666626"
                       },
                       "DelayBetweenUpdates": 0.1,
                       "Feathering": 8,
@@ -829,7 +871,7 @@
                       "__enabled": true,
                       "Flags": 0,
                       "__version": 1,
-                      "BakedTexture": "scenes/butchers den_scene_data/envmap/bake_f87b2fe5-ebc1-4613-9651-6f5f16fe6d3a.vtex",
+                      "BakedTexture": null,
                       "Bounds": {
                         "Mins": "-79.0486679,-96.7530518,-77.2513733",
                         "Maxs": "231.218307,308.035614,62.7259216"
@@ -880,7 +922,7 @@
                       "__enabled": true,
                       "Flags": 0,
                       "__version": 1,
-                      "BakedTexture": "scenes/butchers den_scene_data/envmap/bake_15827551-bf79-441f-8b09-cfac5bf84d67.vtex",
+                      "BakedTexture": null,
                       "Bounds": {
                         "Mins": "-107.8339,-68.1224365,-69.8234863",
                         "Maxs": "94.1650772,60.0862007,62.7259102"
@@ -931,7 +973,7 @@
                       "__enabled": true,
                       "Flags": 0,
                       "__version": 1,
-                      "BakedTexture": "scenes/butchers den_scene_data/envmap/bake_e4b9bda6-cf50-48ac-8215-3dc7c3714ffb.vtex",
+                      "BakedTexture": null,
                       "Bounds": {
                         "Mins": "-131.346497,-132.579605,-69.8234863",
                         "Maxs": "133.007599,125.855598,62.7259102"
@@ -982,7 +1024,7 @@
                       "__enabled": true,
                       "Flags": 0,
                       "__version": 1,
-                      "BakedTexture": "scenes/butchers den_scene_data/envmap/bake_72a7fffd-232c-460b-bec5-8b1128029004.vtex",
+                      "BakedTexture": null,
                       "Bounds": {
                         "Mins": "-107.8339,-64.9806366,-69.8234863",
                         "Maxs": "94.1650772,75.1651917,62.7259102"
@@ -1033,7 +1075,7 @@
                       "__enabled": true,
                       "Flags": 0,
                       "__version": 1,
-                      "BakedTexture": "scenes/butchers den_scene_data/envmap/bake_bc9f599b-1e77-4dc3-82bb-3db85e16535c.vtex",
+                      "BakedTexture": null,
                       "Bounds": {
                         "Mins": "-157.478699,-129.013504,-67.3806",
                         "Maxs": "157.072998,113.672096,62.7259102"
@@ -1084,7 +1126,7 @@
                       "__enabled": true,
                       "Flags": 0,
                       "__version": 1,
-                      "BakedTexture": "scenes/butchers den_scene_data/envmap/bake_b9b5277d-b1c2-49bf-b886-1c541063211a.vtex",
+                      "BakedTexture": null,
                       "Bounds": {
                         "Mins": "-95.6885681,-188.120804,-67.3806",
                         "Maxs": "95.4131012,75.2739334,62.7259102"
@@ -1135,7 +1177,7 @@
                       "__enabled": true,
                       "Flags": 0,
                       "__version": 1,
-                      "BakedTexture": "scenes/butchers den_scene_data/envmap/bake_d03e7a65-1a6f-40c4-8df0-91c1f2fb4820.vtex",
+                      "BakedTexture": null,
                       "Bounds": {
                         "Mins": "-160.934601,-117.282898,-67.3806",
                         "Maxs": "175.707397,136.612198,62.7259102"
@@ -1186,7 +1228,7 @@
                       "__enabled": true,
                       "Flags": 0,
                       "__version": 1,
-                      "BakedTexture": "scenes/butchers den_scene_data/envmap/bake_f03313ba-ebf4-4307-bad5-af37feebdf52.vtex",
+                      "BakedTexture": null,
                       "Bounds": {
                         "Mins": "-95.1717682,-58.242939,-67.3806",
                         "Maxs": "104.888702,55.8056602,64.9279785"
@@ -1237,7 +1279,7 @@
                       "__enabled": true,
                       "Flags": 0,
                       "__version": 1,
-                      "BakedTexture": "scenes/butchers den_scene_data/envmap/bake_89f59c2d-f098-4081-a3bf-3f8b7492a763.vtex",
+                      "BakedTexture": null,
                       "Bounds": {
                         "Mins": "-104.333397,-39.9662399,-71.1332626",
                         "Maxs": "98.7085266,39.734539,65.5102386"
@@ -1288,7 +1330,7 @@
                       "__enabled": true,
                       "Flags": 0,
                       "__version": 1,
-                      "BakedTexture": "scenes/butchers den_scene_data/envmap/bake_8addf7fb-3f92-4c5b-9fdc-c025ae411d70.vtex",
+                      "BakedTexture": null,
                       "Bounds": {
                         "Mins": "-248.263199,-39.9662399,-74.4921112",
                         "Maxs": "98.7085571,39.734539,65.5102386"
@@ -1339,7 +1381,7 @@
                       "__enabled": true,
                       "Flags": 0,
                       "__version": 1,
-                      "BakedTexture": "scenes/butchers den_scene_data/envmap/bake_f09fd7f3-dfb4-4d2d-af49-14bc69f25749.vtex",
+                      "BakedTexture": null,
                       "Bounds": {
                         "Mins": "-170.644699,-120.375801,-74.4921112",
                         "Maxs": "153.548096,141.899399,65.5102386"
@@ -1390,7 +1432,7 @@
                       "__enabled": true,
                       "Flags": 0,
                       "__version": 1,
-                      "BakedTexture": "scenes/butchers den_scene_data/envmap/bake_15ed3d39-550b-450d-920c-f9529ca357c8.vtex",
+                      "BakedTexture": null,
                       "Bounds": {
                         "Mins": "-281.092407,-120.375801,-111.408897",
                         "Maxs": "153.548096,141.899399,65.5102386"
@@ -1441,7 +1483,7 @@
                       "__enabled": true,
                       "Flags": 0,
                       "__version": 1,
-                      "BakedTexture": "scenes/butchers den_scene_data/envmap/bake_364ce72e-374e-42e6-978a-c9d17bf7d533.vtex",
+                      "BakedTexture": null,
                       "Bounds": {
                         "Mins": "-281.092407,-49.2375488,-111.408897",
                         "Maxs": "327.160614,130.591797,116.339699"
@@ -1492,7 +1534,7 @@
                       "__enabled": true,
                       "Flags": 0,
                       "__version": 1,
-                      "BakedTexture": "scenes/butchers den_scene_data/envmap/bake_76cd6c27-c266-4d4f-8319-2348888598d6.vtex",
+                      "BakedTexture": null,
                       "Bounds": {
                         "Mins": "-170.644699,-120.375801,-74.4921112",
                         "Maxs": "153.548096,141.899399,65.5102386"
@@ -1543,7 +1585,7 @@
                       "__enabled": true,
                       "Flags": 0,
                       "__version": 1,
-                      "BakedTexture": "scenes/butchers den_scene_data/envmap/bake_2d9d23e4-43e2-4227-a91c-2537cd77c32a.vtex",
+                      "BakedTexture": null,
                       "Bounds": {
                         "Mins": "-105.846802,-120.375801,-74.4921112",
                         "Maxs": "113.389198,141.899399,65.5102386"
@@ -1594,7 +1636,7 @@
                       "__enabled": true,
                       "Flags": 0,
                       "__version": 1,
-                      "BakedTexture": "scenes/butchers den_scene_data/envmap/bake_4db87bd1-3c0a-413b-be69-1a12709c4b03.vtex",
+                      "BakedTexture": null,
                       "Bounds": {
                         "Mins": "-254.594101,-39.9662399,-181.759705",
                         "Maxs": "25.8072395,39.734539,110.484398"
@@ -1645,7 +1687,7 @@
                       "__enabled": true,
                       "Flags": 0,
                       "__version": 1,
-                      "BakedTexture": "scenes/butchers den_scene_data/envmap/bake_d2aba332-04d1-44c9-ba6d-6f1a58a3318e.vtex",
+                      "BakedTexture": null,
                       "Bounds": {
                         "Mins": "-4490.26709,-4606.16699,-361.770111",
                         "Maxs": "5451.76221,4044.50293,999.99939"
@@ -1685,7 +1727,7 @@
               "Rotation": "0,-0.707106829,0,0.707106829",
               "Scale": "1,1,1",
               "Tags": "",
-              "Enabled": false,
+              "Enabled": true,
               "NetworkMode": 2,
               "NetworkFlags": 0,
               "NetworkOrphaned": 0,
@@ -1725,7 +1767,7 @@
                       "OnComponentFixedUpdate": null,
                       "OnComponentStart": null,
                       "OnComponentUpdate": null,
-                      "Strength": 0.027777778
+                      "Strength": 0.009259259
                     }
                   ],
                   "Children": []
@@ -1762,7 +1804,7 @@
                       "OnComponentFixedUpdate": null,
                       "OnComponentStart": null,
                       "OnComponentUpdate": null,
-                      "Strength": 1
+                      "Strength": 0.6018519
                     }
                   ],
                   "Children": []
@@ -1963,7 +2005,7 @@
                   "ConeOuter": 61.256546,
                   "Cookie": null,
                   "FogMode": "Enabled",
-                  "FogStrength": 1,
+                  "FogStrength": 5,
                   "LightColor": "1,0.74419,0.53488,1",
                   "OnComponentDestroy": null,
                   "OnComponentDisabled": null,
@@ -2047,7 +2089,7 @@
                   "ConeOuter": 78.219894,
                   "Cookie": null,
                   "FogMode": "Enabled",
-                  "FogStrength": 1,
+                  "FogStrength": 3,
                   "LightColor": "1,0.74419,0.53488,1",
                   "OnComponentDestroy": null,
                   "OnComponentDisabled": null,
@@ -2223,7 +2265,278 @@
                   "Shadows": false
                 }
               ],
-              "Children": []
+              "Children": [
+                {
+                  "__guid": "cf0845e2-aab6-4057-a7e3-12ead29ceb28",
+                  "__version": 2,
+                  "Flags": 0,
+                  "Name": "Spray",
+                  "Position": "45.5444183,0.000427275896,0.000215530396",
+                  "Rotation": "0,0,0,1",
+                  "Scale": "1,1,1",
+                  "Tags": "particles",
+                  "Enabled": true,
+                  "NetworkMode": 2,
+                  "NetworkFlags": 0,
+                  "NetworkOrphaned": 0,
+                  "NetworkTransmit": true,
+                  "OwnerTransfer": 1,
+                  "Components": [
+                    {
+                      "__type": "Sandbox.ParticleEffect",
+                      "__guid": "becd14bb-4b16-4af1-9421-f27c5b3d62eb",
+                      "__enabled": true,
+                      "Flags": 0,
+                      "__version": 3,
+                      "Alpha": {
+                        "Type": "Curve",
+                        "Evaluation": "Life",
+                        "CurveA": [
+                          {
+                            "x": 0,
+                            "y": 1,
+                            "in": 0,
+                            "out": 0,
+                            "mode": "Mirrored"
+                          },
+                          {
+                            "x": 0.48029557,
+                            "y": 1,
+                            "in": 1.5365853,
+                            "out": -1.5365853,
+                            "mode": "Mirrored"
+                          },
+                          {
+                            "x": 1,
+                            "y": 0,
+                            "in": 1.312303,
+                            "out": -1.312303,
+                            "mode": "Mirrored"
+                          }
+                        ],
+                        "CurveB": [
+                          {
+                            "x": 0.5,
+                            "y": 0.5,
+                            "in": 0,
+                            "out": 0,
+                            "mode": "Mirrored"
+                          }
+                        ]
+                      },
+                      "ApplyAlpha": true,
+                      "ApplyColor": true,
+                      "ApplyRotation": false,
+                      "ApplyShape": true,
+                      "Bounce": 1,
+                      "Brightness": 1,
+                      "Bumpiness": 0,
+                      "Collision": false,
+                      "CollisionIgnore": null,
+                      "CollisionPrefab": null,
+                      "CollisionPrefabAlign": false,
+                      "CollisionPrefabChance": 1,
+                      "CollisionPrefabRotation": 0,
+                      "CollisionRadius": 1,
+                      "ConstantMovement": {
+                        "X": 0,
+                        "Y": 0,
+                        "Z": 0
+                      },
+                      "Damping": 0,
+                      "DieOnCollisionChance": 0,
+                      "FollowerPrefab": null,
+                      "FollowerPrefabChance": 1,
+                      "FollowerPrefabKill": true,
+                      "Force": false,
+                      "ForceDirection": "0,0,-200",
+                      "ForceScale": 1,
+                      "ForceSpace": "World",
+                      "Friction": 1,
+                      "Gradient": {
+                        "Type": "Range",
+                        "Evaluation": "Particle",
+                        "ConstantA": "1,1,1,1",
+                        "ConstantB": "0.7814,0.7814,0.7814,1"
+                      },
+                      "InitialVelocity": {
+                        "X": 0,
+                        "Y": 0,
+                        "Z": 0
+                      },
+                      "Lifetime": {
+                        "Type": "Range",
+                        "Evaluation": "Seed",
+                        "Constants": "1,2,0,0"
+                      },
+                      "LocalSpace": 0,
+                      "MaxParticles": 5000,
+                      "OnComponentDestroy": null,
+                      "OnComponentDisabled": null,
+                      "OnComponentEnabled": null,
+                      "OnComponentFixedUpdate": null,
+                      "OnComponentStart": null,
+                      "OnComponentUpdate": null,
+                      "OnParticleCreated": null,
+                      "OnParticleDestroyed": null,
+                      "OrbitalForce": {
+                        "X": 0,
+                        "Y": 0,
+                        "Z": 0
+                      },
+                      "OrbitalPull": 0,
+                      "PerParticleTimeScale": 1,
+                      "Pitch": 0,
+                      "PreWarm": 0,
+                      "PushStrength": 0,
+                      "Roll": 0,
+                      "Scale": {
+                        "Type": "Curve",
+                        "Evaluation": "Life",
+                        "CurveA": {
+                          "rangey": "0,0.608333349",
+                          "frames": [
+                            {
+                              "x": 0,
+                              "y": 0,
+                              "in": -9.333329,
+                              "out": 9.333329,
+                              "mode": "Mirrored"
+                            },
+                            {
+                              "x": 0.12543872,
+                              "y": 0.9863012,
+                              "in": -0.056075174,
+                              "out": 0.056075174,
+                              "mode": "Mirrored"
+                            },
+                            {
+                              "x": 1,
+                              "y": 0,
+                              "in": 2.9152544,
+                              "out": -2.9152544,
+                              "mode": "Mirrored"
+                            }
+                          ]
+                        },
+                        "CurveB": [
+                          {
+                            "x": 0.5,
+                            "y": 0.5,
+                            "in": 0,
+                            "out": 0,
+                            "mode": "Mirrored"
+                          }
+                        ]
+                      },
+                      "SequenceId": 0,
+                      "SequenceSpeed": 1,
+                      "SequenceTime": 1,
+                      "SheetSequence": false,
+                      "SnapToFrame": false,
+                      "StartDelay": 0,
+                      "StartVelocity": {
+                        "Type": "Range",
+                        "Evaluation": "Seed",
+                        "Constants": "1,20,0,0"
+                      },
+                      "Stretch": 0,
+                      "TimeScale": 0.019762846,
+                      "Timing": "GameTime",
+                      "Tint": "1,1,1,1",
+                      "UsePrefabFeature": false,
+                      "Yaw": {
+                        "Type": "Range",
+                        "Evaluation": "Seed",
+                        "Constants": "0,360,0,0"
+                      }
+                    },
+                    {
+                      "__type": "Sandbox.ParticleSpriteRenderer",
+                      "__guid": "3fe9729f-bbe3-4000-b9a6-1eb76233eea4",
+                      "__enabled": true,
+                      "Flags": 0,
+                      "__version": 2,
+                      "Additive": false,
+                      "Alignment": "LookAtCamera",
+                      "BlurAmount": 0.12448133,
+                      "BlurOpacity": 0.91,
+                      "BlurSpacing": 0.73,
+                      "DepthFeather": 0,
+                      "FaceVelocity": true,
+                      "FogStrength": 1,
+                      "LeadingTrail": true,
+                      "Lighting": true,
+                      "MotionBlur": true,
+                      "OnComponentDestroy": null,
+                      "OnComponentDisabled": null,
+                      "OnComponentEnabled": null,
+                      "OnComponentFixedUpdate": null,
+                      "OnComponentStart": null,
+                      "OnComponentUpdate": null,
+                      "Opaque": false,
+                      "PlaybackSpeed": 1,
+                      "RenderOptions": {
+                        "GameLayer": true,
+                        "OverlayLayer": false,
+                        "BloomLayer": false,
+                        "AfterUILayer": false
+                      },
+                      "RotationOffset": 0,
+                      "Scale": 0.24896266,
+                      "Shadows": true,
+                      "SortMode": "ByDistance",
+                      "Sprite": {
+                        "$compiler": "embed",
+                        "$source": null,
+                        "data": {
+                          "Animations": [
+                            {
+                              "Name": "Default",
+                              "FrameRate": 15,
+                              "Origin": "0.5,0.5",
+                              "LoopMode": "Loop",
+                              "Frames": [
+                                {
+                                  "Texture": "textures/shapes/sphere3.vtex",
+                                  "BroadcastMessages": []
+                                }
+                              ]
+                            }
+                          ],
+                          "__references": null
+                        },
+                        "compiled": null
+                      },
+                      "StartingAnimationName": "Default",
+                      "TextureFilter": "Bilinear"
+                    },
+                    {
+                      "__type": "Sandbox.ParticleSphereEmitter",
+                      "__guid": "06214414-cf1c-4d39-b283-69b5a053efd9",
+                      "__enabled": true,
+                      "Flags": 0,
+                      "Burst": 0,
+                      "Delay": 0,
+                      "DestroyOnEnd": false,
+                      "Duration": 3,
+                      "Loop": true,
+                      "OnComponentDestroy": null,
+                      "OnComponentDisabled": null,
+                      "OnComponentEnabled": null,
+                      "OnComponentFixedUpdate": null,
+                      "OnComponentStart": null,
+                      "OnComponentUpdate": null,
+                      "OnEdge": false,
+                      "Radius": 20,
+                      "Rate": 500,
+                      "RateOverDistance": 0,
+                      "Velocity": 100
+                    }
+                  ],
+                  "Children": []
+                }
+              ]
             },
             {
               "__guid": "ade38a2e-aaba-457f-afd5-e87da1240ee7",
@@ -2335,7 +2648,7 @@
                   "ConeOuter": 68.25,
                   "Cookie": null,
                   "FogMode": "Enabled",
-                  "FogStrength": 1,
+                  "FogStrength": 2,
                   "LightColor": "0.73023,0.53324,0.33625,1",
                   "OnComponentDestroy": null,
                   "OnComponentDisabled": null,
@@ -2377,7 +2690,7 @@
                   "ConeOuter": 68.25,
                   "Cookie": null,
                   "FogMode": "Enabled",
-                  "FogStrength": 1,
+                  "FogStrength": 2,
                   "LightColor": "0.73023,0.53324,0.33625,1",
                   "OnComponentDestroy": null,
                   "OnComponentDisabled": null,
@@ -2419,7 +2732,7 @@
                   "ConeOuter": 42.831326,
                   "Cookie": null,
                   "FogMode": "Enabled",
-                  "FogStrength": 1,
+                  "FogStrength": 2,
                   "LightColor": "0.73023,0.53324,0.33625,1",
                   "OnComponentDestroy": null,
                   "OnComponentDisabled": null,
@@ -6783,12 +7096,467 @@
           "Children": []
         }
       ]
+    },
+    {
+      "__guid": "a63a805c-43a4-450c-9d81-a063cf4bfb36",
+      "__version": 2,
+      "Flags": 0,
+      "Name": "Volumetric Fog",
+      "Position": "318.957184,114.706612,207.681625",
+      "Rotation": "0,0,0,1",
+      "Scale": "1,1,1",
+      "Tags": "",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkFlags": 0,
+      "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
+      "OwnerTransfer": 1,
+      "Components": [
+        {
+          "__type": "Sandbox.VolumetricFogVolume",
+          "__guid": "0398a2b5-3b9f-4ab6-bad8-953e07497ac3",
+          "__enabled": true,
+          "Flags": 0,
+          "Bounds": {
+            "Mins": "-213.983963,-64.2288971,-78.1121368",
+            "Maxs": "306.732422,73.1366425,150"
+          },
+          "FalloffExponent": 1,
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "Strength": 1
+        }
+      ],
+      "Children": []
+    },
+    {
+      "__guid": "87a2d651-45ea-4d2f-8530-c78bde6bd799",
+      "__version": 2,
+      "Flags": 0,
+      "Name": "Volumetric Fog",
+      "Position": "0,352,57.3951912",
+      "Rotation": "0,0,0,1",
+      "Scale": "1,1,1",
+      "Tags": "",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkFlags": 0,
+      "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
+      "OwnerTransfer": 1,
+      "Components": [
+        {
+          "__type": "Sandbox.VolumetricFogVolume",
+          "__guid": "4468f1ca-60b3-4a84-a7fb-8fd4ba0154b3",
+          "__enabled": true,
+          "Flags": 0,
+          "Bounds": {
+            "Mins": "-88.6366577,-104.098389,-58.3344193",
+            "Maxs": "104.217636,140.34317,70.9108047"
+          },
+          "FalloffExponent": 1,
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "Strength": 1
+        }
+      ],
+      "Children": []
+    },
+    {
+      "__guid": "6d8dacf4-2776-4ab1-bd64-bf55e3c72b01",
+      "__version": 2,
+      "Flags": 0,
+      "Name": "Camera",
+      "Position": "1.89750671,101.384888,-0.00040435791",
+      "Rotation": "0,0,0,1",
+      "Scale": "1,1,1",
+      "Tags": "maincamera",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkFlags": 0,
+      "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
+      "OwnerTransfer": 1,
+      "Components": [
+        {
+          "__type": "Sandbox.CameraComponent",
+          "__guid": "eeaf35d2-4571-453e-aa6b-a7b0cec45b9c",
+          "__enabled": true,
+          "Flags": 0,
+          "BackgroundColor": "0.33333,0.46275,0.52157,1",
+          "ClearFlags": "All",
+          "EnablePostProcessing": true,
+          "FieldOfView": 60,
+          "FovAxis": "Horizontal",
+          "IsMainCamera": true,
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "Orthographic": false,
+          "OrthographicHeight": 1204,
+          "PostProcessAnchor": null,
+          "Priority": 1,
+          "RenderExcludeTags": "",
+          "RenderTags": "",
+          "RenderTexture": null,
+          "TargetEye": "None",
+          "Viewport": "0,0,1,1",
+          "ZFar": 10000,
+          "ZNear": 10
+        }
+      ],
+      "Children": []
+    },
+    {
+      "__guid": "2d7c73c9-ddcd-4d4e-b7d4-958a3d6c50f8",
+      "__version": 2,
+      "Flags": 0,
+      "Name": "Player Controller",
+      "Position": "55.0043945,88.3773575,37.8778419",
+      "Rotation": "0,0,0,1",
+      "Scale": "1,1,1",
+      "Tags": "",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkFlags": 0,
+      "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
+      "OwnerTransfer": 1,
+      "Components": [
+        {
+          "__type": "Sandbox.PlayerController",
+          "__guid": "6a2f7286-43ab-4d77-bad7-9439ae245176",
+          "__enabled": true,
+          "Flags": 0,
+          "AccelerationTime": 0,
+          "AimStrengthBody": 1,
+          "AimStrengthEyes": 1,
+          "AimStrengthHead": 1,
+          "AirFriction": 0.1,
+          "AltMoveButton": "run",
+          "Body": {
+            "_type": "component",
+            "component_id": "fe275fa1-65ad-4ee4-873e-ec10b7a82470",
+            "go": "2d7c73c9-ddcd-4d4e-b7d4-958a3d6c50f8",
+            "component_type": "Rigidbody"
+          },
+          "BodyCollisionTags": null,
+          "BodyHeight": 72,
+          "BodyMass": 500,
+          "BodyRadius": 16,
+          "BrakePower": 1,
+          "CameraOffset": "256,0,12",
+          "ColliderObject": {
+            "_type": "gameobject",
+            "go": "95c4df87-0350-4b97-b8c2-cf8d9b675ec9"
+          },
+          "DeaccelerationTime": 0,
+          "DuckedHeight": 36,
+          "DuckedSpeed": 70,
+          "EnableFootstepSounds": true,
+          "EnablePressing": true,
+          "EyeDistanceFromTop": 8,
+          "FootstepMixer": {
+            "Name": "unknown",
+            "Id": "00000000-0000-0000-0000-000000000000"
+          },
+          "FootstepVolume": 1,
+          "HideBodyInFirstPerson": true,
+          "JumpSpeed": 300,
+          "LookSensitivity": 1,
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "PitchClamp": 90,
+          "ReachLength": 130,
+          "Renderer": {
+            "_type": "component",
+            "component_id": "59d79b63-14f6-4216-b260-2b506aa8d0d3",
+            "go": "fe02c564-c596-40a1-87f7-d434a1fdfdfa",
+            "component_type": "SkinnedModelRenderer"
+          },
+          "RotateWithGround": true,
+          "RotationAngleLimit": 45,
+          "RotationSpeed": 1,
+          "RunByDefault": false,
+          "RunSpeed": 320,
+          "ShowColliderComponents": false,
+          "ShowRigidbodyComponent": false,
+          "ThirdPerson": true,
+          "ToggleCameraModeButton": "view",
+          "UseAnimatorControls": true,
+          "UseButton": "use",
+          "UseCameraControls": true,
+          "UseFovFromPreferences": true,
+          "UseInputControls": true,
+          "UseLookControls": true,
+          "WalkSpeed": 110
+        },
+        {
+          "__type": "Sandbox.Rigidbody",
+          "__guid": "fe275fa1-65ad-4ee4-873e-ec10b7a82470",
+          "__enabled": true,
+          "Flags": 1,
+          "AngularDamping": 1,
+          "EnableImpactDamage": true,
+          "EnhancedCcd": false,
+          "Gravity": true,
+          "GravityScale": 1,
+          "ImpactDamage": 0,
+          "LinearDamping": 0.1,
+          "Locking": {
+            "X": false,
+            "Y": false,
+            "Z": false,
+            "Pitch": true,
+            "Yaw": true,
+            "Roll": true
+          },
+          "MassCenterOverride": "0,0,36",
+          "MassOverride": 500,
+          "MinImpactDamageSpeed": 500,
+          "MotionEnabled": true,
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "OverrideMassCenter": true,
+          "RigidbodyFlags": "DisableCollisionSounds",
+          "StartAsleep": false
+        },
+        {
+          "__type": "Sandbox.Movement.MoveModeWalk",
+          "__guid": "6875e2a4-c58f-454e-8414-faf91e026e39",
+          "__enabled": true,
+          "Flags": 0,
+          "GroundAngle": 45,
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "Priority": 0,
+          "StepDownHeight": 18,
+          "StepUpHeight": 18
+        },
+        {
+          "__type": "Sandbox.Movement.MoveModeSwim",
+          "__guid": "ef4fce90-f7a5-429d-a6e0-b853570dd96f",
+          "__enabled": true,
+          "Flags": 0,
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "Priority": 10,
+          "SwimLevel": 0.7
+        },
+        {
+          "__type": "Sandbox.Movement.MoveModeLadder",
+          "__guid": "05674d70-29f1-40b4-b1d0-265726361075",
+          "__enabled": true,
+          "Flags": 0,
+          "ClimbableTags": "ladder",
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "Priority": 5,
+          "Speed": 1
+        },
+        {
+          "__type": "Sandbox.Dresser",
+          "__guid": "dc4787af-6a75-4009-a437-732ab8bca985",
+          "__enabled": true,
+          "Flags": 0,
+          "ApplyHeightScale": true,
+          "BodyTarget": {
+            "_type": "component",
+            "component_id": "59d79b63-14f6-4216-b260-2b506aa8d0d3",
+            "go": "fe02c564-c596-40a1-87f7-d434a1fdfdfa",
+            "component_type": "SkinnedModelRenderer"
+          },
+          "Clothing": [],
+          "ManualAge": 0.5,
+          "ManualHeight": 0.5,
+          "ManualTint": 0.5,
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "RemoveUnownedItems": true,
+          "Source": "OwnerConnection",
+          "WorkshopItems": []
+        }
+      ],
+      "Children": [
+        {
+          "__guid": "fe02c564-c596-40a1-87f7-d434a1fdfdfa",
+          "__version": 2,
+          "Flags": 0,
+          "Name": "Body",
+          "Position": "0,0,0",
+          "Rotation": "0,0,0,1",
+          "Scale": "1,1,1",
+          "Tags": "",
+          "Enabled": true,
+          "NetworkMode": 2,
+          "NetworkFlags": 0,
+          "NetworkOrphaned": 0,
+          "NetworkTransmit": true,
+          "OwnerTransfer": 1,
+          "Components": [
+            {
+              "__type": "Sandbox.SkinnedModelRenderer",
+              "__guid": "59d79b63-14f6-4216-b260-2b506aa8d0d3",
+              "__enabled": true,
+              "Flags": 0,
+              "AnimationGraph": null,
+              "BodyGroups": 341,
+              "BoneMergeTarget": null,
+              "CreateAttachments": false,
+              "CreateBoneObjects": false,
+              "LodOverride": null,
+              "MaterialGroup": "default",
+              "MaterialOverride": null,
+              "Materials": null,
+              "Model": "models/citizen/citizen.vmdl",
+              "Morphs": {},
+              "OnComponentDestroy": null,
+              "OnComponentDisabled": null,
+              "OnComponentEnabled": null,
+              "OnComponentFixedUpdate": null,
+              "OnComponentStart": null,
+              "OnComponentUpdate": null,
+              "Parameters": {
+                "bools": {},
+                "ints": {},
+                "floats": {},
+                "vectors": {},
+                "rotations": {}
+              },
+              "PlaybackRate": 1,
+              "RenderOptions": {
+                "GameLayer": true,
+                "OverlayLayer": false,
+                "BloomLayer": false,
+                "AfterUILayer": false
+              },
+              "RenderType": "On",
+              "Sequence": {
+                "Name": null,
+                "Looping": true,
+                "Blending": false
+              },
+              "Tint": "1,1,1,1",
+              "UseAnimGraph": true
+            }
+          ],
+          "Children": []
+        },
+        {
+          "__guid": "95c4df87-0350-4b97-b8c2-cf8d9b675ec9",
+          "__version": 2,
+          "Flags": 1,
+          "Name": "Colliders",
+          "Position": "0,0,0",
+          "Rotation": "0,0,0,1",
+          "Scale": "1,1,1",
+          "Tags": "",
+          "Enabled": true,
+          "NetworkMode": 2,
+          "NetworkFlags": 0,
+          "NetworkOrphaned": 0,
+          "NetworkTransmit": true,
+          "OwnerTransfer": 1,
+          "Components": [
+            {
+              "__type": "Sandbox.CapsuleCollider",
+              "__guid": "16ea6f8a-5985-457f-bbee-98b90b23c42c",
+              "__enabled": true,
+              "Flags": 1,
+              "ColliderFlags": 0,
+              "Elasticity": null,
+              "End": "0,0,36",
+              "Friction": 0,
+              "IsTrigger": false,
+              "OnComponentDestroy": null,
+              "OnComponentDisabled": null,
+              "OnComponentEnabled": null,
+              "OnComponentFixedUpdate": null,
+              "OnComponentStart": null,
+              "OnComponentUpdate": null,
+              "OnObjectTriggerEnter": null,
+              "OnObjectTriggerExit": null,
+              "OnTriggerEnter": null,
+              "OnTriggerExit": null,
+              "Radius": 11.313708,
+              "RollingResistance": null,
+              "Start": "0,0,60.6862907",
+              "Static": false,
+              "Surface": null,
+              "SurfaceVelocity": "0,0,0"
+            },
+            {
+              "__type": "Sandbox.BoxCollider",
+              "__guid": "e069f3b5-124b-4416-ba93-3ef9d6c87f86",
+              "__enabled": true,
+              "Flags": 1,
+              "Center": "0,0,18",
+              "ColliderFlags": 0,
+              "Elasticity": null,
+              "Friction": 0,
+              "IsTrigger": false,
+              "OnComponentDestroy": null,
+              "OnComponentDisabled": null,
+              "OnComponentEnabled": null,
+              "OnComponentFixedUpdate": null,
+              "OnComponentStart": null,
+              "OnComponentUpdate": null,
+              "OnObjectTriggerEnter": null,
+              "OnObjectTriggerExit": null,
+              "OnTriggerEnter": null,
+              "OnTriggerExit": null,
+              "RollingResistance": null,
+              "Scale": "16,16,36",
+              "Static": false,
+              "Surface": null,
+              "SurfaceVelocity": "0,0,0"
+            }
+          ],
+          "Children": []
+        }
+      ]
     }
   ],
   "SceneProperties": {
     "NetworkInterpolation": true,
     "TimeScale": 1,
-    "WantsSystemScene": true,
+    "WantsSystemScene": false,
     "Metadata": {
       "Title": "Butchers Den"
     },
@@ -6807,11 +7575,6 @@
       "CustomBounds": false
     },
     "GameObjectSystems": {
-      "Sandbox.Clutter.ClutterGridSystem": {
-        "Storage": {
-          "$blob": "e0b1bf2e-0b85-42eb-96f9-0ece0e9a8fbb"
-        }
-      },
       "Sandbox.MovieMaker.MovieRecorderSystem": {
         "DisableClientRecording": false
       }
