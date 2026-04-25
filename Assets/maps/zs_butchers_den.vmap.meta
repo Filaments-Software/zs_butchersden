@@ -3,7 +3,7 @@
     "Enabled": true,
     "ProjectConfig": {
       "Title": "Zs Butchers Den",
-      "Type": null,
+      "Type": "map",
       "Org": "fss",
       "Ident": "zsbutchersden",
       "Schema": 0,
@@ -13,7 +13,6 @@
       "EditorReferences": [
         "aitextures.beigewallpaper02#17732",
         "baik.dark_wood_hs#8832",
-        "baik.trafficlight#19442",
         "chemical.soap#75770",
         "dotpack.sink#34417",
         "drakefruit.floorlamp#153974",
@@ -55,9 +54,6 @@
         "facepunch.floor_grass_dirt_cliff_blend_a#18754",
         "facepunch.fridge#80640",
         "facepunch.fryingpan#79882",
-        "facepunch.grass_clump_a#145217",
-        "facepunch.grass_clump_b#145215",
-        "facepunch.grass_clump_c#145216",
         "facepunch.insulation_a#48872",
         "facepunch.kickstool#143317",
         "facepunch.kitchen_utensils_a_ladle#143319",
@@ -70,7 +66,6 @@
         "facepunch.largesaucepan#79881",
         "facepunch.light_bulb_fitting#43444",
         "facepunch.mattress#33675",
-        "facepunch.metal_trim_01#111156",
         "facepunch.metal_trim_galvanized#111227",
         "facepunch.metaldoorframesingle02a#107483",
         "facepunch.microwave#143331",
@@ -123,7 +118,7 @@
         "facepunch.woodtrimpolishedblend02#111188",
         "facepunch.woodtrimpolishedblend03#111180",
         "facepunch.woodtrimpolishedblend04#111160",
-        "fss.bloodsigil#200095",
+        "fss.bloodsigil#205176",
         "gbonn.metalroof03#49290",
         "goose.g_tilesdamaged8u#9632",
         "halfpeeps.light_switch#37625",
@@ -164,7 +159,8 @@
       "Mounts": null,
       "IsStandaloneOnly": false,
       "Metadata": {
-        "ParentPackage": "fss.bloodsigil"
+        "ParentPackage": "fss.bloodsigil",
+        "SingleAssetSource": "maps/zs_butchers_den.vmap"
       }
     }
   }
