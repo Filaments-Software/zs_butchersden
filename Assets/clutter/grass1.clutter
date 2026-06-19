@@ -1,0 +1,42 @@
+{
+  "Entries": [
+    {
+      "Prefab": null,
+      "Model": "models/sbox_props/nature/grass_clumps/grass_clump_a.vmdl",
+      "Weight": 1,
+      "HasAsset": true,
+      "AssetName": "models/sbox_props/nature/grass_clumps/grass_clump_a.vmdl"
+    },
+    {
+      "Prefab": null,
+      "Model": "models/sbox_props/nature/grass_clumps/grass_clump_b.vmdl",
+      "Weight": 1,
+      "HasAsset": true,
+      "AssetName": "models/sbox_props/nature/grass_clumps/grass_clump_b.vmdl"
+    },
+    {
+      "Prefab": null,
+      "Model": "models/sbox_props/nature/grass_clumps/grass_clump_c.vmdl",
+      "Weight": 1,
+      "HasAsset": true,
+      "AssetName": "models/sbox_props/nature/grass_clumps/grass_clump_c.vmdl"
+    }
+  ],
+  "IsEmpty": false,
+  "TileSizeEnum": "Size512",
+  "TileRadius": 4,
+  "Scatterer": {
+    "Type": "SimpleScatterer",
+    "Scale": "0.800000012 1.20000005",
+    "Density": 0.5,
+    "PlaceOnGround": true,
+    "HeightOffset": 0,
+    "AlignToNormal": false
+  },
+  "__references": [
+    "facepunch.grass_clump_a#271492",
+    "facepunch.grass_clump_b#271491",
+    "facepunch.grass_clump_c#271490"
+  ],
+  "__version": 0
+}
