@@ -3559,660 +3559,6 @@
           ]
         },
         {
-          "__guid": "aaacb3ee-59eb-4862-b3ba-fbc56d2f9117",
-          "__version": 2,
-          "Flags": 0,
-          "Name": "Sigils",
-          "Position": "715.077576,415.922424,-231.900681",
-          "Rotation": "0,0,0,1",
-          "Scale": "1,1,1",
-          "Tags": "",
-          "Enabled": true,
-          "NetworkMode": 2,
-          "NetworkFlags": 0,
-          "NetworkOrphaned": 0,
-          "NetworkTransmit": true,
-          "OwnerTransfer": 1,
-          "Components": [],
-          "Children": [
-            {
-              "__guid": "f115f03c-9b83-407c-9aa7-2c122c29cfac",
-              "__version": 2,
-              "Flags": 0,
-              "Name": "Sigil",
-              "Position": "398.08551,-112.850998,38.008091",
-              "Rotation": "0,0,0,1",
-              "Scale": "1,1,1",
-              "Tags": "",
-              "Enabled": true,
-              "NetworkMode": 2,
-              "NetworkFlags": 0,
-              "NetworkOrphaned": 0,
-              "NetworkTransmit": true,
-              "OwnerTransfer": 1,
-              "Components": [
-                {
-                  "__type": "Bloodsigil.SigilSpawnPoint",
-                  "__guid": "b26fe0ae-a243-4a26-9b1a-d3d02f991aa6",
-                  "__enabled": true,
-                  "Flags": 0,
-                  "Color": "0,1,0.53333,1",
-                  "HealthRegen": 20,
-                  "MaterialOverride": null,
-                  "MaxHealth": 1000,
-                  "Model": "models/zs/sigil/sigil_base.vmdl",
-                  "OnComponentDestroy": null,
-                  "OnComponentDisabled": null,
-                  "OnComponentEnabled": null,
-                  "OnComponentFixedUpdate": null,
-                  "OnComponentStart": null,
-                  "OnComponentUpdate": null,
-                  "RegenDelay": 2
-                }
-              ],
-              "Children": []
-            },
-            {
-              "__guid": "5036b80c-faa1-4f58-becf-2055e26b23c8",
-              "__version": 2,
-              "Flags": 0,
-              "Name": "Spot Light (1)",
-              "Position": "206.014084,37.6297493,61.204567",
-              "Rotation": "0,0,0.707107008,-0.707106769",
-              "Scale": "1,1,1",
-              "Tags": "light_spot,light",
-              "Enabled": true,
-              "NetworkMode": 2,
-              "NetworkFlags": 0,
-              "NetworkOrphaned": 0,
-              "NetworkTransmit": true,
-              "OwnerTransfer": 1,
-              "Components": [
-                {
-                  "__type": "Sandbox.SpotLight",
-                  "__guid": "567c95b7-7cc3-49a4-85a1-f824a7ebde01",
-                  "__enabled": true,
-                  "Flags": 0,
-                  "Attenuation": 10,
-                  "ConeInner": 45.75,
-                  "ConeOuter": 63,
-                  "Contribution": "Diffuse, Specular, Transmissive",
-                  "Cookie": null,
-                  "FogMode": "Enabled",
-                  "FogStrength": 1,
-                  "LightColor": "0.91373,0.98039,1,1",
-                  "OnComponentDestroy": null,
-                  "OnComponentDisabled": null,
-                  "OnComponentEnabled": null,
-                  "OnComponentFixedUpdate": null,
-                  "OnComponentStart": null,
-                  "OnComponentUpdate": null,
-                  "Radius": 80,
-                  "ShadowBias": 0.0005,
-                  "ShadowHardness": 1,
-                  "Shadows": true
-                }
-              ],
-              "Children": []
-            },
-            {
-              "__guid": "b1c16a77-4a38-4b0f-8bf4-c9020a705a78",
-              "__version": 2,
-              "Flags": 0,
-              "Name": "Sigil",
-              "Position": "333.08551,246.149002,38.008091",
-              "Rotation": "0,0,0,1",
-              "Scale": "1,1,1",
-              "Tags": "",
-              "Enabled": true,
-              "NetworkMode": 2,
-              "NetworkFlags": 0,
-              "NetworkOrphaned": 0,
-              "NetworkTransmit": true,
-              "OwnerTransfer": 1,
-              "Components": [
-                {
-                  "__type": "Bloodsigil.SigilSpawnPoint",
-                  "__guid": "acf94ec3-c890-43c5-b532-9a6d10f5033d",
-                  "__enabled": true,
-                  "Flags": 0,
-                  "Color": "0,1,0.53333,1",
-                  "HealthRegen": 20,
-                  "MaterialOverride": null,
-                  "MaxHealth": 1000,
-                  "Model": "models/zs/sigil/sigil_base.vmdl",
-                  "OnComponentDestroy": null,
-                  "OnComponentDisabled": null,
-                  "OnComponentEnabled": null,
-                  "OnComponentFixedUpdate": null,
-                  "OnComponentStart": null,
-                  "OnComponentUpdate": null,
-                  "RegenDelay": 2
-                }
-              ],
-              "Children": []
-            },
-            {
-              "__guid": "a1cd54ec-14f8-47db-b32e-6f8f3dbee7e0",
-              "__version": 2,
-              "Flags": 0,
-              "Name": "Sigil",
-              "Position": "186.085495,385.148987,38.008091",
-              "Rotation": "0,0,-0.707106709,0.707106829",
-              "Scale": "1,1,1",
-              "Tags": "",
-              "Enabled": true,
-              "NetworkMode": 2,
-              "NetworkFlags": 0,
-              "NetworkOrphaned": 0,
-              "NetworkTransmit": true,
-              "OwnerTransfer": 1,
-              "Components": [
-                {
-                  "__type": "Bloodsigil.SigilSpawnPoint",
-                  "__guid": "45bcb156-55d2-4484-9337-62f95776adba",
-                  "__enabled": true,
-                  "Flags": 0,
-                  "Color": "0,1,0.53333,1",
-                  "HealthRegen": 20,
-                  "MaterialOverride": null,
-                  "MaxHealth": 1000,
-                  "Model": "models/zs/sigil/sigil_base.vmdl",
-                  "OnComponentDestroy": null,
-                  "OnComponentDisabled": null,
-                  "OnComponentEnabled": null,
-                  "OnComponentFixedUpdate": null,
-                  "OnComponentStart": null,
-                  "OnComponentUpdate": null,
-                  "RegenDelay": 2
-                }
-              ],
-              "Children": []
-            },
-            {
-              "__guid": "970b849b-1797-4a9a-8b71-dcd6e48b270c",
-              "__version": 2,
-              "Flags": 0,
-              "Name": "Sigil",
-              "Position": "-372.91449,94.1489868,174.008102",
-              "Rotation": "0,0,0,1",
-              "Scale": "1,1,1",
-              "Tags": "",
-              "Enabled": true,
-              "NetworkMode": 2,
-              "NetworkFlags": 0,
-              "NetworkOrphaned": 0,
-              "NetworkTransmit": true,
-              "OwnerTransfer": 1,
-              "Components": [
-                {
-                  "__type": "Bloodsigil.SigilSpawnPoint",
-                  "__guid": "8ed1218f-630c-4cfd-99a1-59431aab9337",
-                  "__enabled": true,
-                  "Flags": 0,
-                  "Color": "0,1,0.53333,1",
-                  "HealthRegen": 20,
-                  "MaterialOverride": null,
-                  "MaxHealth": 1000,
-                  "Model": "models/zs/sigil/sigil_base.vmdl",
-                  "OnComponentDestroy": null,
-                  "OnComponentDisabled": null,
-                  "OnComponentEnabled": null,
-                  "OnComponentFixedUpdate": null,
-                  "OnComponentStart": null,
-                  "OnComponentUpdate": null,
-                  "RegenDelay": 2
-                }
-              ],
-              "Children": []
-            },
-            {
-              "__guid": "1b3db5bb-936f-41e7-a34b-6e1cc7b34b16",
-              "__version": 2,
-              "Flags": 0,
-              "Name": "Sigil",
-              "Position": "266.08551,205.149002,174.008102",
-              "Rotation": "0,0,-1,2.08616299E-07",
-              "Scale": "1,1,1",
-              "Tags": "",
-              "Enabled": true,
-              "NetworkMode": 2,
-              "NetworkFlags": 0,
-              "NetworkOrphaned": 0,
-              "NetworkTransmit": true,
-              "OwnerTransfer": 1,
-              "Components": [
-                {
-                  "__type": "Bloodsigil.SigilSpawnPoint",
-                  "__guid": "ee5e31e1-a8fe-45ee-afe9-a646b0323084",
-                  "__enabled": true,
-                  "Flags": 0,
-                  "Color": "0,1,0.53333,1",
-                  "HealthRegen": 20,
-                  "MaterialOverride": null,
-                  "MaxHealth": 1000,
-                  "Model": "models/zs/sigil/sigil_base.vmdl",
-                  "OnComponentDestroy": null,
-                  "OnComponentDisabled": null,
-                  "OnComponentEnabled": null,
-                  "OnComponentFixedUpdate": null,
-                  "OnComponentStart": null,
-                  "OnComponentUpdate": null,
-                  "RegenDelay": 2
-                }
-              ],
-              "Children": []
-            },
-            {
-              "__guid": "29b9d0fb-ef07-4e5c-8422-66c494fc5ae9",
-              "__version": 2,
-              "Flags": 0,
-              "Name": "Sigil",
-              "Position": "266.085388,387.149292,174.008102",
-              "Rotation": "0,0,-0.707106471,0.707107127",
-              "Scale": "1,1,1",
-              "Tags": "",
-              "Enabled": true,
-              "NetworkMode": 2,
-              "NetworkFlags": 0,
-              "NetworkOrphaned": 0,
-              "NetworkTransmit": true,
-              "OwnerTransfer": 1,
-              "Components": [
-                {
-                  "__type": "Bloodsigil.SigilSpawnPoint",
-                  "__guid": "686c39e1-dae6-4fe4-882e-4bf6b08f86ed",
-                  "__enabled": true,
-                  "Flags": 0,
-                  "Color": "0,1,0.53333,1",
-                  "HealthRegen": 20,
-                  "MaterialOverride": null,
-                  "MaxHealth": 1000,
-                  "Model": "models/zs/sigil/sigil_base.vmdl",
-                  "OnComponentDestroy": null,
-                  "OnComponentDisabled": null,
-                  "OnComponentEnabled": null,
-                  "OnComponentFixedUpdate": null,
-                  "OnComponentStart": null,
-                  "OnComponentUpdate": null,
-                  "RegenDelay": 2
-                }
-              ],
-              "Children": []
-            },
-            {
-              "__guid": "aff0f7e9-dc1f-45e0-88e7-a58ff13b4861",
-              "__version": 2,
-              "Flags": 0,
-              "Name": "Sigil",
-              "Position": "-1.914505,-2.85100889,174.008102",
-              "Rotation": "0,0,0,1",
-              "Scale": "1,1,1",
-              "Tags": "",
-              "Enabled": true,
-              "NetworkMode": 2,
-              "NetworkFlags": 0,
-              "NetworkOrphaned": 0,
-              "NetworkTransmit": true,
-              "OwnerTransfer": 1,
-              "Components": [
-                {
-                  "__type": "Bloodsigil.SigilSpawnPoint",
-                  "__guid": "63e104d5-813f-49aa-9fd1-62038432f1bb",
-                  "__enabled": true,
-                  "Flags": 0,
-                  "Color": "0,1,0.53333,1",
-                  "HealthRegen": 20,
-                  "MaterialOverride": null,
-                  "MaxHealth": 1000,
-                  "Model": "models/zs/sigil/sigil_base.vmdl",
-                  "OnComponentDestroy": null,
-                  "OnComponentDisabled": null,
-                  "OnComponentEnabled": null,
-                  "OnComponentFixedUpdate": null,
-                  "OnComponentStart": null,
-                  "OnComponentUpdate": null,
-                  "RegenDelay": 2
-                }
-              ],
-              "Children": []
-            },
-            {
-              "__guid": "e1a0763b-075d-4f1f-884a-084829389d3d",
-              "__version": 2,
-              "Flags": 0,
-              "Name": "Sigil",
-              "Position": "263.08551,-128.850998,174.008102",
-              "Rotation": "0,0,-0.70710659,0.707106888",
-              "Scale": "1,1,1",
-              "Tags": "",
-              "Enabled": true,
-              "NetworkMode": 2,
-              "NetworkFlags": 0,
-              "NetworkOrphaned": 0,
-              "NetworkTransmit": true,
-              "OwnerTransfer": 1,
-              "Components": [
-                {
-                  "__type": "Bloodsigil.SigilSpawnPoint",
-                  "__guid": "74b4a0a2-fa93-4c1d-9b87-3ac81e2f532e",
-                  "__enabled": true,
-                  "Flags": 0,
-                  "Color": "0,1,0.53333,1",
-                  "HealthRegen": 20,
-                  "MaterialOverride": null,
-                  "MaxHealth": 1000,
-                  "Model": "models/zs/sigil/sigil_base.vmdl",
-                  "OnComponentDestroy": null,
-                  "OnComponentDisabled": null,
-                  "OnComponentEnabled": null,
-                  "OnComponentFixedUpdate": null,
-                  "OnComponentStart": null,
-                  "OnComponentUpdate": null,
-                  "RegenDelay": 2
-                }
-              ],
-              "Children": []
-            },
-            {
-              "__guid": "0be62f03-06ab-47b8-8d8b-9f2d11bb588d",
-              "__version": 2,
-              "Flags": 0,
-              "Name": "Sigil",
-              "Position": "263.085388,-66.8509979,174.008102",
-              "Rotation": "0,0,-0.707106709,-0.70710659",
-              "Scale": "1,1,1",
-              "Tags": "",
-              "Enabled": true,
-              "NetworkMode": 2,
-              "NetworkFlags": 0,
-              "NetworkOrphaned": 0,
-              "NetworkTransmit": true,
-              "OwnerTransfer": 1,
-              "Components": [
-                {
-                  "__type": "Bloodsigil.SigilSpawnPoint",
-                  "__guid": "1786f212-5245-4611-ab50-df9a3d5403fe",
-                  "__enabled": true,
-                  "Flags": 0,
-                  "Color": "0,1,0.53333,1",
-                  "HealthRegen": 20,
-                  "MaterialOverride": null,
-                  "MaxHealth": 1000,
-                  "Model": "models/zs/sigil/sigil_base.vmdl",
-                  "OnComponentDestroy": null,
-                  "OnComponentDisabled": null,
-                  "OnComponentEnabled": null,
-                  "OnComponentFixedUpdate": null,
-                  "OnComponentStart": null,
-                  "OnComponentUpdate": null,
-                  "RegenDelay": 2
-                }
-              ],
-              "Children": []
-            },
-            {
-              "__guid": "dad43cdd-c35f-48d7-baae-5302996f4c5b",
-              "__version": 2,
-              "Flags": 0,
-              "Name": "Sigil",
-              "Position": "401.08551,372.148987,174.008102",
-              "Rotation": "0,0,-0.70710659,0.707106888",
-              "Scale": "1,1,1",
-              "Tags": "",
-              "Enabled": true,
-              "NetworkMode": 2,
-              "NetworkFlags": 0,
-              "NetworkOrphaned": 0,
-              "NetworkTransmit": true,
-              "OwnerTransfer": 1,
-              "Components": [
-                {
-                  "__type": "Bloodsigil.SigilSpawnPoint",
-                  "__guid": "1805c736-8ffe-40a6-ad72-baa458c74633",
-                  "__enabled": true,
-                  "Flags": 0,
-                  "Color": "0,1,0.53333,1",
-                  "HealthRegen": 20,
-                  "MaterialOverride": null,
-                  "MaxHealth": 1000,
-                  "Model": "models/zs/sigil/sigil_base.vmdl",
-                  "OnComponentDestroy": null,
-                  "OnComponentDisabled": null,
-                  "OnComponentEnabled": null,
-                  "OnComponentFixedUpdate": null,
-                  "OnComponentStart": null,
-                  "OnComponentUpdate": null,
-                  "RegenDelay": 2
-                }
-              ],
-              "Children": []
-            },
-            {
-              "__guid": "0c6fb4c4-7c57-418f-b6f8-8afbf504c28b",
-              "__version": 2,
-              "Flags": 0,
-              "Name": "Sigil",
-              "Position": "-173.914505,257.148987,38.008091",
-              "Rotation": "0,0,0.707107127,0.707106471",
-              "Scale": "1,1,1",
-              "Tags": "",
-              "Enabled": true,
-              "NetworkMode": 2,
-              "NetworkFlags": 0,
-              "NetworkOrphaned": 0,
-              "NetworkTransmit": true,
-              "OwnerTransfer": 1,
-              "Components": [
-                {
-                  "__type": "Bloodsigil.SigilSpawnPoint",
-                  "__guid": "1a559904-dbd9-4785-9032-6aed3c3bd765",
-                  "__enabled": true,
-                  "Flags": 0,
-                  "Color": "0,1,0.53333,1",
-                  "HealthRegen": 20,
-                  "MaterialOverride": null,
-                  "MaxHealth": 1000,
-                  "Model": "models/zs/sigil/sigil_base.vmdl",
-                  "OnComponentDestroy": null,
-                  "OnComponentDisabled": null,
-                  "OnComponentEnabled": null,
-                  "OnComponentFixedUpdate": null,
-                  "OnComponentStart": null,
-                  "OnComponentUpdate": null,
-                  "RegenDelay": 2
-                }
-              ],
-              "Children": []
-            },
-            {
-              "__guid": "5f4c2131-ec21-4a60-9d51-c4738e5274fb",
-              "__version": 2,
-              "Flags": 0,
-              "Name": "Sigil",
-              "Position": "-206.854599,196.180206,38.008091",
-              "Rotation": "0,0,-0.130525798,0.991445124",
-              "Scale": "1,1,1",
-              "Tags": "",
-              "Enabled": true,
-              "NetworkMode": 2,
-              "NetworkFlags": 0,
-              "NetworkOrphaned": 0,
-              "NetworkTransmit": true,
-              "OwnerTransfer": 1,
-              "Components": [
-                {
-                  "__type": "Bloodsigil.SigilSpawnPoint",
-                  "__guid": "5f6d1ba4-1528-400c-8fe1-0a7a8c51c32c",
-                  "__enabled": true,
-                  "Flags": 0,
-                  "Color": "0,1,0.53333,1",
-                  "HealthRegen": 20,
-                  "MaterialOverride": null,
-                  "MaxHealth": 1000,
-                  "Model": "models/zs/sigil/sigil_base.vmdl",
-                  "OnComponentDestroy": null,
-                  "OnComponentDisabled": null,
-                  "OnComponentEnabled": null,
-                  "OnComponentFixedUpdate": null,
-                  "OnComponentStart": null,
-                  "OnComponentUpdate": null,
-                  "RegenDelay": 2
-                }
-              ],
-              "Children": []
-            },
-            {
-              "__guid": "9b043956-eece-4863-b0f7-ed0207f665ff",
-              "__version": 2,
-              "Flags": 0,
-              "Name": "Sigil",
-              "Position": "-108.914497,-71.8509979,38.008091",
-              "Rotation": "0,0,0.707107186,0.70710659",
-              "Scale": "1,1,1",
-              "Tags": "",
-              "Enabled": true,
-              "NetworkMode": 2,
-              "NetworkFlags": 0,
-              "NetworkOrphaned": 0,
-              "NetworkTransmit": true,
-              "OwnerTransfer": 1,
-              "Components": [
-                {
-                  "__type": "Bloodsigil.SigilSpawnPoint",
-                  "__guid": "bd7084b2-08c2-4e37-ada5-09a5fd4a6e0a",
-                  "__enabled": true,
-                  "Flags": 0,
-                  "Color": "0,1,0.53333,1",
-                  "HealthRegen": 20,
-                  "MaterialOverride": null,
-                  "MaxHealth": 1000,
-                  "Model": "models/zs/sigil/sigil_base.vmdl",
-                  "OnComponentDestroy": null,
-                  "OnComponentDisabled": null,
-                  "OnComponentEnabled": null,
-                  "OnComponentFixedUpdate": null,
-                  "OnComponentStart": null,
-                  "OnComponentUpdate": null,
-                  "RegenDelay": 2
-                }
-              ],
-              "Children": []
-            },
-            {
-              "__guid": "27cccc08-399e-49d8-b6bc-f0436d0e3098",
-              "__version": 2,
-              "Flags": 0,
-              "Name": "Sigil",
-              "Position": "-270.914703,390.148895,38.008091",
-              "Rotation": "0,0,0.866025329,-0.500000179",
-              "Scale": "1,1,1",
-              "Tags": "",
-              "Enabled": true,
-              "NetworkMode": 2,
-              "NetworkFlags": 0,
-              "NetworkOrphaned": 0,
-              "NetworkTransmit": true,
-              "OwnerTransfer": 1,
-              "Components": [
-                {
-                  "__type": "Bloodsigil.SigilSpawnPoint",
-                  "__guid": "bf8e5b95-c8c0-4ab0-8e10-41422efe9941",
-                  "__enabled": true,
-                  "Flags": 0,
-                  "Color": "0,1,0.53333,1",
-                  "HealthRegen": 20,
-                  "MaterialOverride": null,
-                  "MaxHealth": 1000,
-                  "Model": "models/zs/sigil/sigil_base.vmdl",
-                  "OnComponentDestroy": null,
-                  "OnComponentDisabled": null,
-                  "OnComponentEnabled": null,
-                  "OnComponentFixedUpdate": null,
-                  "OnComponentStart": null,
-                  "OnComponentUpdate": null,
-                  "RegenDelay": 2
-                }
-              ],
-              "Children": []
-            },
-            {
-              "__guid": "c33ab6c6-c2b5-464d-b67c-09f5c1babf11",
-              "__version": 2,
-              "Flags": 0,
-              "Name": "Sigil",
-              "Position": "-1060.91504,-1764.85095,41.008091",
-              "Rotation": "0,0,0.382683307,0.923879623",
-              "Scale": "1,1,1",
-              "Tags": "",
-              "Enabled": true,
-              "NetworkMode": 2,
-              "NetworkFlags": 0,
-              "NetworkOrphaned": 0,
-              "NetworkTransmit": true,
-              "OwnerTransfer": 1,
-              "Components": [
-                {
-                  "__type": "Bloodsigil.SigilSpawnPoint",
-                  "__guid": "fde7d716-1a6f-441e-b517-0d66f70c8b13",
-                  "__enabled": true,
-                  "Flags": 0,
-                  "Color": "0,1,0.53333,1",
-                  "HealthRegen": 20,
-                  "MaterialOverride": null,
-                  "MaxHealth": 1000,
-                  "Model": "models/zs/sigil/sigil_base.vmdl",
-                  "OnComponentDestroy": null,
-                  "OnComponentDisabled": null,
-                  "OnComponentEnabled": null,
-                  "OnComponentFixedUpdate": null,
-                  "OnComponentStart": null,
-                  "OnComponentUpdate": null,
-                  "RegenDelay": 2
-                }
-              ],
-              "Children": []
-            },
-            {
-              "__guid": "1ddf298e-7dc6-42ad-b58b-c00fd279a0f9",
-              "__version": 2,
-              "Flags": 0,
-              "Name": "Sigil",
-              "Position": "-864.821472,-1661.66797,51.008091",
-              "Rotation": "0,0,0.866025329,0.500000119",
-              "Scale": "1,1,1",
-              "Tags": "",
-              "Enabled": true,
-              "NetworkMode": 2,
-              "NetworkFlags": 0,
-              "NetworkOrphaned": 0,
-              "NetworkTransmit": true,
-              "OwnerTransfer": 1,
-              "Components": [
-                {
-                  "__type": "Bloodsigil.SigilSpawnPoint",
-                  "__guid": "55035142-fa2d-4a62-9727-2161e1dab002",
-                  "__enabled": true,
-                  "Flags": 0,
-                  "Color": "0,1,0.53333,1",
-                  "HealthRegen": 20,
-                  "MaterialOverride": null,
-                  "MaxHealth": 1000,
-                  "Model": "models/zs/sigil/sigil_base.vmdl",
-                  "OnComponentDestroy": null,
-                  "OnComponentDisabled": null,
-                  "OnComponentEnabled": null,
-                  "OnComponentFixedUpdate": null,
-                  "OnComponentStart": null,
-                  "OnComponentUpdate": null,
-                  "RegenDelay": 2
-                }
-              ],
-              "Children": []
-            }
-          ]
-        },
-        {
           "__guid": "01392149-185e-4d54-b855-623d949cbfd6",
           "__version": 2,
           "Flags": 0,
@@ -23102,7 +22448,7 @@
                   "Color": "1,1,1,1",
                   "Elasticity": null,
                   "Friction": null,
-                  "HideInGame": false,
+                  "HideInGame": true,
                   "IsTrigger": false,
                   "Mesh": {
                     "Topology": "H4sIAAAAAAAACs3POw7CUBBD0RMJQvgEWva/0aArvTQRNcLlXI9lL3hjxnbQC1fcsX7hv9Z59LlhwgkL6hlvQ10fg+fP20/8MnY8B8+ft594eWWVGc+f9x+276rP8fYBqEQ7m8QBAAA=",
@@ -24790,6 +24136,1403 @@
           ]
         }
       ]
+    },
+    {
+      "__guid": "d39c19c6-42b7-43b1-8675-e7e3dd043702",
+      "__version": 2,
+      "Flags": 0,
+      "Name": "Spawns",
+      "Position": "0,0,0",
+      "Rotation": "0,0,0,1",
+      "Scale": "1,1,1",
+      "Tags": "",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkFlags": 0,
+      "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
+      "OwnerTransfer": 1,
+      "Components": [],
+      "Children": [
+        {
+          "__guid": "31dd94a3-f745-4a97-a3e1-a1c8a4ab915c",
+          "__version": 2,
+          "__Prefab": "prefabs/mapping/zgas.prefab",
+          "__PrefabInstancePatch": {
+            "AddedObjects": [],
+            "RemovedObjects": [],
+            "PropertyOverrides": [
+              {
+                "Target": {
+                  "Type": "GameObject",
+                  "IdValue": "5c6a00c2-0ab7-4ee8-98d4-51d869faeaf9"
+                },
+                "Property": "Position",
+                "Value": "3062,136,-102"
+              },
+              {
+                "Target": {
+                  "Type": "Component",
+                  "IdValue": "30a3221f-0762-4990-8522-8fae2b83bf60"
+                },
+                "Property": "Bounds",
+                "Value": {
+                  "Mins": "-547,-307,-46.9999619",
+                  "Maxs": "457,555,103.000008"
+                }
+              },
+              {
+                "Target": {
+                  "Type": "Component",
+                  "IdValue": "8b94640a-00d1-43ce-8687-0583a66f38b7"
+                },
+                "Property": "Flags",
+                "Value": 33
+              },
+              {
+                "Target": {
+                  "Type": "Component",
+                  "IdValue": "8b94640a-00d1-43ce-8687-0583a66f38b7"
+                },
+                "Property": "Center",
+                "Value": "-45,124,28.0000229"
+              },
+              {
+                "Target": {
+                  "Type": "Component",
+                  "IdValue": "8b94640a-00d1-43ce-8687-0583a66f38b7"
+                },
+                "Property": "Scale",
+                "Value": "1004,862,149.999969"
+              },
+              {
+                "Target": {
+                  "Type": "GameObject",
+                  "IdValue": "cc54cd1b-bd96-4d0f-ac0c-69da8c971a43"
+                },
+                "Property": "Position",
+                "Value": "-45,124,28.0000229"
+              },
+              {
+                "Target": {
+                  "Type": "Component",
+                  "IdValue": "7f4817b4-7281-498e-b586-771415a3451c"
+                },
+                "Property": "Flags",
+                "Value": 1
+              },
+              {
+                "Target": {
+                  "Type": "Component",
+                  "IdValue": "7f4817b4-7281-498e-b586-771415a3451c"
+                },
+                "Property": "Rate",
+                "Value": 50.634212
+              },
+              {
+                "Target": {
+                  "Type": "Component",
+                  "IdValue": "7f4817b4-7281-498e-b586-771415a3451c"
+                },
+                "Property": "Size",
+                "Value": "1004,862,149.999969"
+              },
+              {
+                "Target": {
+                  "Type": "Component",
+                  "IdValue": "f9b3c8b5-c671-4402-98b7-927c142eaaf0"
+                },
+                "Property": "Flags",
+                "Value": 1
+              },
+              {
+                "Target": {
+                  "Type": "Component",
+                  "IdValue": "f9b3c8b5-c671-4402-98b7-927c142eaaf0"
+                },
+                "Property": "SceneVolume",
+                "Value": {
+                  "Type": "Box",
+                  "Sphere": {
+                    "Center": "0,0,0",
+                    "Radius": 10
+                  },
+                  "Box": {
+                    "Mins": "-547,-307,-46.9999619",
+                    "Maxs": "457,555,103.000008"
+                  },
+                  "Capsule": {
+                    "CenterA": "0,0,10",
+                    "CenterB": "0,0,90",
+                    "Radius": 10
+                  }
+                }
+              }
+            ],
+            "MovedObjects": []
+          },
+          "__PrefabIdToInstanceId": {
+            "5c6a00c2-0ab7-4ee8-98d4-51d869faeaf9": "31dd94a3-f745-4a97-a3e1-a1c8a4ab915c",
+            "30a3221f-0762-4990-8522-8fae2b83bf60": "2163826a-625d-46b2-a1f6-5a3258b4eff3",
+            "8b94640a-00d1-43ce-8687-0583a66f38b7": "75c5e015-e769-4e9d-9807-27d57839317b",
+            "cc54cd1b-bd96-4d0f-ac0c-69da8c971a43": "9c8c6144-3cc8-4481-9152-24ff659a5eb6",
+            "c61596a1-738d-4b50-b1ac-9be63def8591": "8bbdde16-a882-437e-b851-1a48f9bee771",
+            "1be58801-e489-4cf3-a909-b466f5e197ee": "ca6ca64b-9e00-4ad2-be13-0b190c491556",
+            "7f4817b4-7281-498e-b586-771415a3451c": "5bc3a870-c39a-4b18-b2ef-ee028ee7a9cf",
+            "fe60bb17-a5cb-45cf-bed9-9c5bd3474d94": "01392a47-b062-4be4-a24b-16913b0a89b1",
+            "f9b3c8b5-c671-4402-98b7-927c142eaaf0": "9a1981e2-74f5-45d4-9624-063348fda713",
+            "6033a3d3-a96b-450f-abd1-35cbaaf271cf": "2153116c-7b2b-42d1-9f20-fd9c0fab4885",
+            "81d052ff-66ab-4b3d-ac1a-1fd81a0b9868": "72936e5c-f4d9-4aef-bfac-85d524a262d7",
+            "1bb6a1bc-1fff-4f88-b283-e6b127ea708e": "3507322b-d566-430b-9479-ce2853136756",
+            "b721e6f4-13fc-4d35-9518-756c62ee42ce": "641c1fa4-8d29-4bfb-98ba-df94eca22b9e"
+          }
+        },
+        {
+          "__guid": "aaacb3ee-59eb-4862-b3ba-fbc56d2f9117",
+          "__version": 2,
+          "Flags": 0,
+          "Name": "Sigils",
+          "Position": "145.91449,16.8510132,-39.0080872",
+          "Rotation": "0,0,0,1",
+          "Scale": "1,1,1",
+          "Tags": "",
+          "Enabled": true,
+          "NetworkMode": 2,
+          "NetworkFlags": 0,
+          "NetworkOrphaned": 0,
+          "NetworkTransmit": true,
+          "OwnerTransfer": 1,
+          "Components": [],
+          "Children": [
+            {
+              "__guid": "f115f03c-9b83-407c-9aa7-2c122c29cfac",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "Sigil",
+              "Position": "398.08551,-112.850998,38.008091",
+              "Rotation": "0,0,0,1",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [
+                {
+                  "__type": "Bloodsigil.SigilSpawnPoint",
+                  "__guid": "b26fe0ae-a243-4a26-9b1a-d3d02f991aa6",
+                  "__enabled": true,
+                  "Flags": 0,
+                  "Color": "0,1,0.53333,1",
+                  "HealthRegen": 20,
+                  "MaterialOverride": null,
+                  "MaxHealth": 1000,
+                  "Model": "models/zs/sigil/sigil_base.vmdl",
+                  "OnComponentDestroy": null,
+                  "OnComponentDisabled": null,
+                  "OnComponentEnabled": null,
+                  "OnComponentFixedUpdate": null,
+                  "OnComponentStart": null,
+                  "OnComponentUpdate": null,
+                  "RegenDelay": 2
+                }
+              ],
+              "Children": []
+            },
+            {
+              "__guid": "5036b80c-faa1-4f58-becf-2055e26b23c8",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "Spot Light (1)",
+              "Position": "206.014084,37.6297493,61.204567",
+              "Rotation": "0,0,0.707107008,-0.707106769",
+              "Scale": "1,1,1",
+              "Tags": "light_spot,light",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [
+                {
+                  "__type": "Sandbox.SpotLight",
+                  "__guid": "567c95b7-7cc3-49a4-85a1-f824a7ebde01",
+                  "__enabled": true,
+                  "Flags": 0,
+                  "Attenuation": 10,
+                  "ConeInner": 45.75,
+                  "ConeOuter": 63,
+                  "Contribution": "Diffuse, Specular, Transmissive",
+                  "Cookie": null,
+                  "FogMode": "Enabled",
+                  "FogStrength": 1,
+                  "LightColor": "0.91373,0.98039,1,1",
+                  "OnComponentDestroy": null,
+                  "OnComponentDisabled": null,
+                  "OnComponentEnabled": null,
+                  "OnComponentFixedUpdate": null,
+                  "OnComponentStart": null,
+                  "OnComponentUpdate": null,
+                  "Radius": 80,
+                  "ShadowBias": 0.0005,
+                  "ShadowHardness": 1,
+                  "Shadows": true
+                }
+              ],
+              "Children": []
+            },
+            {
+              "__guid": "b1c16a77-4a38-4b0f-8bf4-c9020a705a78",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "Sigil",
+              "Position": "333.08551,246.149002,38.008091",
+              "Rotation": "0,0,0,1",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [
+                {
+                  "__type": "Bloodsigil.SigilSpawnPoint",
+                  "__guid": "acf94ec3-c890-43c5-b532-9a6d10f5033d",
+                  "__enabled": true,
+                  "Flags": 0,
+                  "Color": "0,1,0.53333,1",
+                  "HealthRegen": 20,
+                  "MaterialOverride": null,
+                  "MaxHealth": 1000,
+                  "Model": "models/zs/sigil/sigil_base.vmdl",
+                  "OnComponentDestroy": null,
+                  "OnComponentDisabled": null,
+                  "OnComponentEnabled": null,
+                  "OnComponentFixedUpdate": null,
+                  "OnComponentStart": null,
+                  "OnComponentUpdate": null,
+                  "RegenDelay": 2
+                }
+              ],
+              "Children": []
+            },
+            {
+              "__guid": "a1cd54ec-14f8-47db-b32e-6f8f3dbee7e0",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "Sigil",
+              "Position": "186.085495,385.148987,38.008091",
+              "Rotation": "0,0,-0.707106709,0.707106829",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [
+                {
+                  "__type": "Bloodsigil.SigilSpawnPoint",
+                  "__guid": "45bcb156-55d2-4484-9337-62f95776adba",
+                  "__enabled": true,
+                  "Flags": 0,
+                  "Color": "0,1,0.53333,1",
+                  "HealthRegen": 20,
+                  "MaterialOverride": null,
+                  "MaxHealth": 1000,
+                  "Model": "models/zs/sigil/sigil_base.vmdl",
+                  "OnComponentDestroy": null,
+                  "OnComponentDisabled": null,
+                  "OnComponentEnabled": null,
+                  "OnComponentFixedUpdate": null,
+                  "OnComponentStart": null,
+                  "OnComponentUpdate": null,
+                  "RegenDelay": 2
+                }
+              ],
+              "Children": []
+            },
+            {
+              "__guid": "970b849b-1797-4a9a-8b71-dcd6e48b270c",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "Sigil",
+              "Position": "-372.91449,94.1489868,174.008102",
+              "Rotation": "0,0,0,1",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [
+                {
+                  "__type": "Bloodsigil.SigilSpawnPoint",
+                  "__guid": "8ed1218f-630c-4cfd-99a1-59431aab9337",
+                  "__enabled": true,
+                  "Flags": 0,
+                  "Color": "0,1,0.53333,1",
+                  "HealthRegen": 20,
+                  "MaterialOverride": null,
+                  "MaxHealth": 1000,
+                  "Model": "models/zs/sigil/sigil_base.vmdl",
+                  "OnComponentDestroy": null,
+                  "OnComponentDisabled": null,
+                  "OnComponentEnabled": null,
+                  "OnComponentFixedUpdate": null,
+                  "OnComponentStart": null,
+                  "OnComponentUpdate": null,
+                  "RegenDelay": 2
+                }
+              ],
+              "Children": []
+            },
+            {
+              "__guid": "1b3db5bb-936f-41e7-a34b-6e1cc7b34b16",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "Sigil",
+              "Position": "266.08551,205.149002,174.008102",
+              "Rotation": "0,0,-1,2.08616299E-07",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [
+                {
+                  "__type": "Bloodsigil.SigilSpawnPoint",
+                  "__guid": "ee5e31e1-a8fe-45ee-afe9-a646b0323084",
+                  "__enabled": true,
+                  "Flags": 0,
+                  "Color": "0,1,0.53333,1",
+                  "HealthRegen": 20,
+                  "MaterialOverride": null,
+                  "MaxHealth": 1000,
+                  "Model": "models/zs/sigil/sigil_base.vmdl",
+                  "OnComponentDestroy": null,
+                  "OnComponentDisabled": null,
+                  "OnComponentEnabled": null,
+                  "OnComponentFixedUpdate": null,
+                  "OnComponentStart": null,
+                  "OnComponentUpdate": null,
+                  "RegenDelay": 2
+                }
+              ],
+              "Children": []
+            },
+            {
+              "__guid": "29b9d0fb-ef07-4e5c-8422-66c494fc5ae9",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "Sigil",
+              "Position": "266.085388,387.149292,174.008102",
+              "Rotation": "0,0,-0.707106471,0.707107127",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [
+                {
+                  "__type": "Bloodsigil.SigilSpawnPoint",
+                  "__guid": "686c39e1-dae6-4fe4-882e-4bf6b08f86ed",
+                  "__enabled": true,
+                  "Flags": 0,
+                  "Color": "0,1,0.53333,1",
+                  "HealthRegen": 20,
+                  "MaterialOverride": null,
+                  "MaxHealth": 1000,
+                  "Model": "models/zs/sigil/sigil_base.vmdl",
+                  "OnComponentDestroy": null,
+                  "OnComponentDisabled": null,
+                  "OnComponentEnabled": null,
+                  "OnComponentFixedUpdate": null,
+                  "OnComponentStart": null,
+                  "OnComponentUpdate": null,
+                  "RegenDelay": 2
+                }
+              ],
+              "Children": []
+            },
+            {
+              "__guid": "aff0f7e9-dc1f-45e0-88e7-a58ff13b4861",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "Sigil",
+              "Position": "-1.914505,-2.85100889,174.008102",
+              "Rotation": "0,0,0,1",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [
+                {
+                  "__type": "Bloodsigil.SigilSpawnPoint",
+                  "__guid": "63e104d5-813f-49aa-9fd1-62038432f1bb",
+                  "__enabled": true,
+                  "Flags": 0,
+                  "Color": "0,1,0.53333,1",
+                  "HealthRegen": 20,
+                  "MaterialOverride": null,
+                  "MaxHealth": 1000,
+                  "Model": "models/zs/sigil/sigil_base.vmdl",
+                  "OnComponentDestroy": null,
+                  "OnComponentDisabled": null,
+                  "OnComponentEnabled": null,
+                  "OnComponentFixedUpdate": null,
+                  "OnComponentStart": null,
+                  "OnComponentUpdate": null,
+                  "RegenDelay": 2
+                }
+              ],
+              "Children": []
+            },
+            {
+              "__guid": "e1a0763b-075d-4f1f-884a-084829389d3d",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "Sigil",
+              "Position": "263.08551,-128.850998,174.008102",
+              "Rotation": "0,0,-0.70710659,0.707106888",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [
+                {
+                  "__type": "Bloodsigil.SigilSpawnPoint",
+                  "__guid": "74b4a0a2-fa93-4c1d-9b87-3ac81e2f532e",
+                  "__enabled": true,
+                  "Flags": 0,
+                  "Color": "0,1,0.53333,1",
+                  "HealthRegen": 20,
+                  "MaterialOverride": null,
+                  "MaxHealth": 1000,
+                  "Model": "models/zs/sigil/sigil_base.vmdl",
+                  "OnComponentDestroy": null,
+                  "OnComponentDisabled": null,
+                  "OnComponentEnabled": null,
+                  "OnComponentFixedUpdate": null,
+                  "OnComponentStart": null,
+                  "OnComponentUpdate": null,
+                  "RegenDelay": 2
+                }
+              ],
+              "Children": []
+            },
+            {
+              "__guid": "0be62f03-06ab-47b8-8d8b-9f2d11bb588d",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "Sigil",
+              "Position": "263.085388,-66.8509979,174.008102",
+              "Rotation": "0,0,-0.707106709,-0.70710659",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [
+                {
+                  "__type": "Bloodsigil.SigilSpawnPoint",
+                  "__guid": "1786f212-5245-4611-ab50-df9a3d5403fe",
+                  "__enabled": true,
+                  "Flags": 0,
+                  "Color": "0,1,0.53333,1",
+                  "HealthRegen": 20,
+                  "MaterialOverride": null,
+                  "MaxHealth": 1000,
+                  "Model": "models/zs/sigil/sigil_base.vmdl",
+                  "OnComponentDestroy": null,
+                  "OnComponentDisabled": null,
+                  "OnComponentEnabled": null,
+                  "OnComponentFixedUpdate": null,
+                  "OnComponentStart": null,
+                  "OnComponentUpdate": null,
+                  "RegenDelay": 2
+                }
+              ],
+              "Children": []
+            },
+            {
+              "__guid": "dad43cdd-c35f-48d7-baae-5302996f4c5b",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "Sigil",
+              "Position": "401.08551,372.148987,174.008102",
+              "Rotation": "0,0,-0.70710659,0.707106888",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [
+                {
+                  "__type": "Bloodsigil.SigilSpawnPoint",
+                  "__guid": "1805c736-8ffe-40a6-ad72-baa458c74633",
+                  "__enabled": true,
+                  "Flags": 0,
+                  "Color": "0,1,0.53333,1",
+                  "HealthRegen": 20,
+                  "MaterialOverride": null,
+                  "MaxHealth": 1000,
+                  "Model": "models/zs/sigil/sigil_base.vmdl",
+                  "OnComponentDestroy": null,
+                  "OnComponentDisabled": null,
+                  "OnComponentEnabled": null,
+                  "OnComponentFixedUpdate": null,
+                  "OnComponentStart": null,
+                  "OnComponentUpdate": null,
+                  "RegenDelay": 2
+                }
+              ],
+              "Children": []
+            },
+            {
+              "__guid": "0c6fb4c4-7c57-418f-b6f8-8afbf504c28b",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "Sigil",
+              "Position": "-173.914505,257.148987,38.008091",
+              "Rotation": "0,0,0.707107127,0.707106471",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [
+                {
+                  "__type": "Bloodsigil.SigilSpawnPoint",
+                  "__guid": "1a559904-dbd9-4785-9032-6aed3c3bd765",
+                  "__enabled": true,
+                  "Flags": 0,
+                  "Color": "0,1,0.53333,1",
+                  "HealthRegen": 20,
+                  "MaterialOverride": null,
+                  "MaxHealth": 1000,
+                  "Model": "models/zs/sigil/sigil_base.vmdl",
+                  "OnComponentDestroy": null,
+                  "OnComponentDisabled": null,
+                  "OnComponentEnabled": null,
+                  "OnComponentFixedUpdate": null,
+                  "OnComponentStart": null,
+                  "OnComponentUpdate": null,
+                  "RegenDelay": 2
+                }
+              ],
+              "Children": []
+            },
+            {
+              "__guid": "5f4c2131-ec21-4a60-9d51-c4738e5274fb",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "Sigil",
+              "Position": "-206.854599,196.180206,38.008091",
+              "Rotation": "0,0,-0.130525798,0.991445124",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [
+                {
+                  "__type": "Bloodsigil.SigilSpawnPoint",
+                  "__guid": "5f6d1ba4-1528-400c-8fe1-0a7a8c51c32c",
+                  "__enabled": true,
+                  "Flags": 0,
+                  "Color": "0,1,0.53333,1",
+                  "HealthRegen": 20,
+                  "MaterialOverride": null,
+                  "MaxHealth": 1000,
+                  "Model": "models/zs/sigil/sigil_base.vmdl",
+                  "OnComponentDestroy": null,
+                  "OnComponentDisabled": null,
+                  "OnComponentEnabled": null,
+                  "OnComponentFixedUpdate": null,
+                  "OnComponentStart": null,
+                  "OnComponentUpdate": null,
+                  "RegenDelay": 2
+                }
+              ],
+              "Children": []
+            },
+            {
+              "__guid": "9b043956-eece-4863-b0f7-ed0207f665ff",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "Sigil",
+              "Position": "-108.914497,-71.8509979,38.008091",
+              "Rotation": "0,0,0.707107186,0.70710659",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [
+                {
+                  "__type": "Bloodsigil.SigilSpawnPoint",
+                  "__guid": "bd7084b2-08c2-4e37-ada5-09a5fd4a6e0a",
+                  "__enabled": true,
+                  "Flags": 0,
+                  "Color": "0,1,0.53333,1",
+                  "HealthRegen": 20,
+                  "MaterialOverride": null,
+                  "MaxHealth": 1000,
+                  "Model": "models/zs/sigil/sigil_base.vmdl",
+                  "OnComponentDestroy": null,
+                  "OnComponentDisabled": null,
+                  "OnComponentEnabled": null,
+                  "OnComponentFixedUpdate": null,
+                  "OnComponentStart": null,
+                  "OnComponentUpdate": null,
+                  "RegenDelay": 2
+                }
+              ],
+              "Children": []
+            },
+            {
+              "__guid": "27cccc08-399e-49d8-b6bc-f0436d0e3098",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "Sigil",
+              "Position": "-270.914703,390.148895,38.008091",
+              "Rotation": "0,0,0.866025329,-0.500000179",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [
+                {
+                  "__type": "Bloodsigil.SigilSpawnPoint",
+                  "__guid": "bf8e5b95-c8c0-4ab0-8e10-41422efe9941",
+                  "__enabled": true,
+                  "Flags": 0,
+                  "Color": "0,1,0.53333,1",
+                  "HealthRegen": 20,
+                  "MaterialOverride": null,
+                  "MaxHealth": 1000,
+                  "Model": "models/zs/sigil/sigil_base.vmdl",
+                  "OnComponentDestroy": null,
+                  "OnComponentDisabled": null,
+                  "OnComponentEnabled": null,
+                  "OnComponentFixedUpdate": null,
+                  "OnComponentStart": null,
+                  "OnComponentUpdate": null,
+                  "RegenDelay": 2
+                }
+              ],
+              "Children": []
+            },
+            {
+              "__guid": "c33ab6c6-c2b5-464d-b67c-09f5c1babf11",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "Sigil",
+              "Position": "-1060.91504,-1764.85095,41.008091",
+              "Rotation": "0,0,0.382683307,0.923879623",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [
+                {
+                  "__type": "Bloodsigil.SigilSpawnPoint",
+                  "__guid": "fde7d716-1a6f-441e-b517-0d66f70c8b13",
+                  "__enabled": true,
+                  "Flags": 0,
+                  "Color": "0,1,0.53333,1",
+                  "HealthRegen": 20,
+                  "MaterialOverride": null,
+                  "MaxHealth": 1000,
+                  "Model": "models/zs/sigil/sigil_base.vmdl",
+                  "OnComponentDestroy": null,
+                  "OnComponentDisabled": null,
+                  "OnComponentEnabled": null,
+                  "OnComponentFixedUpdate": null,
+                  "OnComponentStart": null,
+                  "OnComponentUpdate": null,
+                  "RegenDelay": 2
+                }
+              ],
+              "Children": []
+            },
+            {
+              "__guid": "1ddf298e-7dc6-42ad-b58b-c00fd279a0f9",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "Sigil",
+              "Position": "-864.821472,-1661.66797,51.008091",
+              "Rotation": "0,0,0.866025329,0.500000119",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [
+                {
+                  "__type": "Bloodsigil.SigilSpawnPoint",
+                  "__guid": "55035142-fa2d-4a62-9727-2161e1dab002",
+                  "__enabled": true,
+                  "Flags": 0,
+                  "Color": "0,1,0.53333,1",
+                  "HealthRegen": 20,
+                  "MaterialOverride": null,
+                  "MaxHealth": 1000,
+                  "Model": "models/zs/sigil/sigil_base.vmdl",
+                  "OnComponentDestroy": null,
+                  "OnComponentDisabled": null,
+                  "OnComponentEnabled": null,
+                  "OnComponentFixedUpdate": null,
+                  "OnComponentStart": null,
+                  "OnComponentUpdate": null,
+                  "RegenDelay": 2
+                }
+              ],
+              "Children": []
+            }
+          ]
+        },
+        {
+          "__guid": "0c9b9ed1-a943-4391-b801-ed1c0ff4cf42",
+          "__version": 2,
+          "Flags": 0,
+          "Name": "Zombies",
+          "Position": "0,0,0",
+          "Rotation": "0,0,0,1",
+          "Scale": "1,1,1",
+          "Tags": "",
+          "Enabled": true,
+          "NetworkMode": 2,
+          "NetworkFlags": 0,
+          "NetworkOrphaned": 0,
+          "NetworkTransmit": true,
+          "OwnerTransfer": 1,
+          "Components": [],
+          "Children": [
+            {
+              "__guid": "5d6cc2aa-d9ee-4c52-b452-a11e516f27d3",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "ZSpawn (1)",
+              "Position": "-1810,-1780.78687,76",
+              "Rotation": "0,0,0.669130325,0.743144989",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [
+                {
+                  "__type": "Bloodsigil.BloodsigilSpawnPoint",
+                  "__guid": "d1403bb4-e408-4bc3-a688-17feedd31392",
+                  "__enabled": true,
+                  "Flags": 0,
+                  "Color": "0,0,0,0",
+                  "IsZombie": true,
+                  "MaterialOverride": null,
+                  "Model": "models/zs/zombie/basic/zombie.vmdl",
+                  "OnComponentDestroy": null,
+                  "OnComponentDisabled": null,
+                  "OnComponentEnabled": null,
+                  "OnComponentFixedUpdate": null,
+                  "OnComponentStart": null,
+                  "OnComponentUpdate": null
+                }
+              ],
+              "Children": []
+            },
+            {
+              "__guid": "c9c589fb-1ef4-4d91-bc34-4592681768d0",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "ZSpawn (2)",
+              "Position": "-1890.10828,-1733.73499,78",
+              "Rotation": "0,0,0.669130325,0.743144989",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [
+                {
+                  "__type": "Bloodsigil.BloodsigilSpawnPoint",
+                  "__guid": "70a663ad-d60e-4583-81ce-532888d96077",
+                  "__enabled": true,
+                  "Flags": 0,
+                  "Color": "0,0,0,0",
+                  "IsZombie": true,
+                  "MaterialOverride": null,
+                  "Model": "models/zs/zombie/basic/zombie.vmdl",
+                  "OnComponentDestroy": null,
+                  "OnComponentDisabled": null,
+                  "OnComponentEnabled": null,
+                  "OnComponentFixedUpdate": null,
+                  "OnComponentStart": null,
+                  "OnComponentUpdate": null
+                }
+              ],
+              "Children": []
+            },
+            {
+              "__guid": "ea3632db-f8a8-495b-8319-4cde636a38bd",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "ZSpawn (4)",
+              "Position": "-2014,-1480,76",
+              "Rotation": "0,0,0.669130325,0.743144989",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [
+                {
+                  "__type": "Bloodsigil.BloodsigilSpawnPoint",
+                  "__guid": "f5b4411a-69f1-4758-860c-9fa28fb1d671",
+                  "__enabled": true,
+                  "Flags": 0,
+                  "Color": "0,0,0,0",
+                  "IsZombie": true,
+                  "MaterialOverride": null,
+                  "Model": "models/zs/zombie/basic/zombie.vmdl",
+                  "OnComponentDestroy": null,
+                  "OnComponentDisabled": null,
+                  "OnComponentEnabled": null,
+                  "OnComponentFixedUpdate": null,
+                  "OnComponentStart": null,
+                  "OnComponentUpdate": null
+                }
+              ],
+              "Children": []
+            },
+            {
+              "__guid": "8ffc648d-d43b-4677-a8bf-882e0da0c5fb",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "ZSpawn (5)",
+              "Position": "-1945.56372,-1408,60.8348694",
+              "Rotation": "0,0,0.669130325,0.743144989",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [
+                {
+                  "__type": "Bloodsigil.BloodsigilSpawnPoint",
+                  "__guid": "20b4b0f9-4011-4037-a6c2-5f722ca2dbb4",
+                  "__enabled": true,
+                  "Flags": 0,
+                  "Color": "0,0,0,0",
+                  "IsZombie": true,
+                  "MaterialOverride": null,
+                  "Model": "models/zs/zombie/basic/zombie.vmdl",
+                  "OnComponentDestroy": null,
+                  "OnComponentDisabled": null,
+                  "OnComponentEnabled": null,
+                  "OnComponentFixedUpdate": null,
+                  "OnComponentStart": null,
+                  "OnComponentUpdate": null
+                }
+              ],
+              "Children": []
+            },
+            {
+              "__guid": "f61f2b8a-b1a3-4aa0-99b9-1824062445c7",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "ZSpawn (3)",
+              "Position": "-1914.64111,-1670.13257,65.9500122",
+              "Rotation": "0,0,0.669130325,0.743144989",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [
+                {
+                  "__type": "Bloodsigil.BloodsigilSpawnPoint",
+                  "__guid": "e37e6893-778a-40d0-8be4-0f2fe5d2837d",
+                  "__enabled": true,
+                  "Flags": 0,
+                  "Color": "0,0,0,0",
+                  "IsZombie": true,
+                  "MaterialOverride": null,
+                  "Model": "models/zs/zombie/basic/zombie.vmdl",
+                  "OnComponentDestroy": null,
+                  "OnComponentDisabled": null,
+                  "OnComponentEnabled": null,
+                  "OnComponentFixedUpdate": null,
+                  "OnComponentStart": null,
+                  "OnComponentUpdate": null
+                }
+              ],
+              "Children": []
+            },
+            {
+              "__guid": "a91040f5-03d1-4a30-abff-4663edbd2a97",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "ZSpawn",
+              "Position": "3062,136,-130",
+              "Rotation": "0,0,0.669130325,0.743144989",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [
+                {
+                  "__type": "Bloodsigil.BloodsigilSpawnPoint",
+                  "__guid": "06a1d9bc-2cac-457b-a5f6-1704a1a28117",
+                  "__enabled": true,
+                  "Flags": 0,
+                  "Color": "0,0,0,0",
+                  "IsZombie": true,
+                  "MaterialOverride": null,
+                  "Model": "models/zs/zombie/basic/zombie.vmdl",
+                  "OnComponentDestroy": null,
+                  "OnComponentDisabled": null,
+                  "OnComponentEnabled": null,
+                  "OnComponentFixedUpdate": null,
+                  "OnComponentStart": null,
+                  "OnComponentUpdate": null
+                }
+              ],
+              "Children": []
+            },
+            {
+              "__guid": "b18882c1-15dd-45b4-bfb0-a7d4f5a85a5e",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "ZSpawn",
+              "Position": "3124,232,-134",
+              "Rotation": "0,0,0.669130325,0.743144989",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [
+                {
+                  "__type": "Bloodsigil.BloodsigilSpawnPoint",
+                  "__guid": "baaa01a6-8e88-436c-978b-b783f8e02917",
+                  "__enabled": true,
+                  "Flags": 0,
+                  "Color": "0,0,0,0",
+                  "IsZombie": true,
+                  "MaterialOverride": null,
+                  "Model": "models/zs/zombie/basic/zombie.vmdl",
+                  "OnComponentDestroy": null,
+                  "OnComponentDisabled": null,
+                  "OnComponentEnabled": null,
+                  "OnComponentFixedUpdate": null,
+                  "OnComponentStart": null,
+                  "OnComponentUpdate": null
+                }
+              ],
+              "Children": []
+            },
+            {
+              "__guid": "fd6046df-82c1-4b07-b786-a00c02cfe08d",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "ZSpawn",
+              "Position": "3016,266,-134",
+              "Rotation": "0,0,0.669130325,0.743144989",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [
+                {
+                  "__type": "Bloodsigil.BloodsigilSpawnPoint",
+                  "__guid": "48b9406c-fbe7-41c2-bb13-83c416d6330f",
+                  "__enabled": true,
+                  "Flags": 0,
+                  "Color": "0,0,0,0",
+                  "IsZombie": true,
+                  "MaterialOverride": null,
+                  "Model": "models/zs/zombie/basic/zombie.vmdl",
+                  "OnComponentDestroy": null,
+                  "OnComponentDisabled": null,
+                  "OnComponentEnabled": null,
+                  "OnComponentFixedUpdate": null,
+                  "OnComponentStart": null,
+                  "OnComponentUpdate": null
+                }
+              ],
+              "Children": []
+            },
+            {
+              "__guid": "8a09f415-b7fe-472e-944c-34acfdff3c97",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "ZSpawn",
+              "Position": "3116,62,-132",
+              "Rotation": "0,0,0.669130325,0.743144989",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [
+                {
+                  "__type": "Bloodsigil.BloodsigilSpawnPoint",
+                  "__guid": "89dde4e8-e8d5-4c99-b0cd-ba4d26399855",
+                  "__enabled": true,
+                  "Flags": 0,
+                  "Color": "0,0,0,0",
+                  "IsZombie": true,
+                  "MaterialOverride": null,
+                  "Model": "models/zs/zombie/basic/zombie.vmdl",
+                  "OnComponentDestroy": null,
+                  "OnComponentDisabled": null,
+                  "OnComponentEnabled": null,
+                  "OnComponentFixedUpdate": null,
+                  "OnComponentStart": null,
+                  "OnComponentUpdate": null
+                }
+              ],
+              "Children": []
+            },
+            {
+              "__guid": "d26c68ee-32a2-413d-b00d-d2ada1a071db",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "ZSpawn",
+              "Position": "2998,34,-116",
+              "Rotation": "0,0,0.669130325,0.743144989",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [
+                {
+                  "__type": "Bloodsigil.BloodsigilSpawnPoint",
+                  "__guid": "182aabad-2a89-4bb7-8e58-a4873c51d854",
+                  "__enabled": true,
+                  "Flags": 0,
+                  "Color": "0,0,0,0",
+                  "IsZombie": true,
+                  "MaterialOverride": null,
+                  "Model": "models/zs/zombie/basic/zombie.vmdl",
+                  "OnComponentDestroy": null,
+                  "OnComponentDisabled": null,
+                  "OnComponentEnabled": null,
+                  "OnComponentFixedUpdate": null,
+                  "OnComponentStart": null,
+                  "OnComponentUpdate": null
+                }
+              ],
+              "Children": []
+            },
+            {
+              "__guid": "9a6d2dbb-29c7-45a2-b32b-cbc5dc30e0f3",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "ZSpawn",
+              "Position": "2998,-32,-116",
+              "Rotation": "0,0,0.669130325,0.743144989",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [
+                {
+                  "__type": "Bloodsigil.BloodsigilSpawnPoint",
+                  "__guid": "83689b66-672e-400e-bc94-7f8a0bceca19",
+                  "__enabled": true,
+                  "Flags": 0,
+                  "Color": "0,0,0,0",
+                  "IsZombie": true,
+                  "MaterialOverride": null,
+                  "Model": "models/zs/zombie/basic/zombie.vmdl",
+                  "OnComponentDestroy": null,
+                  "OnComponentDisabled": null,
+                  "OnComponentEnabled": null,
+                  "OnComponentFixedUpdate": null,
+                  "OnComponentStart": null,
+                  "OnComponentUpdate": null
+                }
+              ],
+              "Children": []
+            },
+            {
+              "__guid": "c984a284-4f8e-4b4f-b440-7544a35a0554",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "ZSpawn",
+              "Position": "2950,-32,-110",
+              "Rotation": "0,0,0.669130325,0.743144989",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [
+                {
+                  "__type": "Bloodsigil.BloodsigilSpawnPoint",
+                  "__guid": "b4115c50-4119-4bb1-9f6e-3a817af2609c",
+                  "__enabled": true,
+                  "Flags": 0,
+                  "Color": "0,0,0,0",
+                  "IsZombie": true,
+                  "MaterialOverride": null,
+                  "Model": "models/zs/zombie/basic/zombie.vmdl",
+                  "OnComponentDestroy": null,
+                  "OnComponentDisabled": null,
+                  "OnComponentEnabled": null,
+                  "OnComponentFixedUpdate": null,
+                  "OnComponentStart": null,
+                  "OnComponentUpdate": null
+                }
+              ],
+              "Children": []
+            },
+            {
+              "__guid": "df402564-063b-4754-b5dc-cc56afa82ae5",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "ZSpawn (1)",
+              "Position": "-1912.71777,-1602.68323,65.9022369",
+              "Rotation": "0,0,0.669130325,0.743144989",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [
+                {
+                  "__type": "Bloodsigil.BloodsigilSpawnPoint",
+                  "__guid": "0af617f3-8399-4c03-8135-e7c7d4e4d52f",
+                  "__enabled": true,
+                  "Flags": 0,
+                  "Color": "0,0,0,0",
+                  "IsZombie": true,
+                  "MaterialOverride": null,
+                  "Model": "models/zs/zombie/basic/zombie.vmdl",
+                  "OnComponentDestroy": null,
+                  "OnComponentDisabled": null,
+                  "OnComponentEnabled": null,
+                  "OnComponentFixedUpdate": null,
+                  "OnComponentStart": null,
+                  "OnComponentUpdate": null
+                }
+              ],
+              "Children": []
+            }
+          ]
+        },
+        {
+          "__guid": "71a14b52-98dc-4a28-adc0-0b781a3e45a6",
+          "__version": 2,
+          "__Prefab": "prefabs/mapping/zgas.prefab",
+          "__PrefabInstancePatch": {
+            "AddedObjects": [],
+            "RemovedObjects": [],
+            "PropertyOverrides": [
+              {
+                "Target": {
+                  "Type": "GameObject",
+                  "IdValue": "5c6a00c2-0ab7-4ee8-98d4-51d869faeaf9"
+                },
+                "Property": "Position",
+                "Value": "-1818,-1614,84"
+              },
+              {
+                "Target": {
+                  "Type": "Component",
+                  "IdValue": "30a3221f-0762-4990-8522-8fae2b83bf60"
+                },
+                "Property": "Bounds",
+                "Value": {
+                  "Mins": "-361,-321,-70.9999542",
+                  "Maxs": "487,587,109"
+                }
+              },
+              {
+                "Target": {
+                  "Type": "Component",
+                  "IdValue": "30a3221f-0762-4990-8522-8fae2b83bf60"
+                },
+                "Property": "ShowHiddenComponents",
+                "Value": true
+              },
+              {
+                "Target": {
+                  "Type": "Component",
+                  "IdValue": "8b94640a-00d1-43ce-8687-0583a66f38b7"
+                },
+                "Property": "Center",
+                "Value": "63,133,19.0000229"
+              },
+              {
+                "Target": {
+                  "Type": "Component",
+                  "IdValue": "8b94640a-00d1-43ce-8687-0583a66f38b7"
+                },
+                "Property": "Scale",
+                "Value": "848,908,179.999954"
+              },
+              {
+                "Target": {
+                  "Type": "GameObject",
+                  "IdValue": "cc54cd1b-bd96-4d0f-ac0c-69da8c971a43"
+                },
+                "Property": "Position",
+                "Value": "63,133,19.0000229"
+              },
+              {
+                "Target": {
+                  "Type": "Component",
+                  "IdValue": "7f4817b4-7281-498e-b586-771415a3451c"
+                },
+                "Property": "Rate",
+                "Value": 51.750916
+              },
+              {
+                "Target": {
+                  "Type": "Component",
+                  "IdValue": "7f4817b4-7281-498e-b586-771415a3451c"
+                },
+                "Property": "Size",
+                "Value": "848,908,179.999954"
+              },
+              {
+                "Target": {
+                  "Type": "Component",
+                  "IdValue": "f9b3c8b5-c671-4402-98b7-927c142eaaf0"
+                },
+                "Property": "SceneVolume",
+                "Value": {
+                  "Type": "Box",
+                  "Sphere": {
+                    "Center": "0,0,0",
+                    "Radius": 10
+                  },
+                  "Box": {
+                    "Mins": "-361,-321,-70.9999542",
+                    "Maxs": "487,587,109"
+                  },
+                  "Capsule": {
+                    "CenterA": "0,0,10",
+                    "CenterB": "0,0,90",
+                    "Radius": 10
+                  }
+                }
+              }
+            ],
+            "MovedObjects": []
+          },
+          "__PrefabIdToInstanceId": {
+            "5c6a00c2-0ab7-4ee8-98d4-51d869faeaf9": "71a14b52-98dc-4a28-adc0-0b781a3e45a6",
+            "30a3221f-0762-4990-8522-8fae2b83bf60": "300c6e4d-4031-473e-b17c-ec580251a272",
+            "8b94640a-00d1-43ce-8687-0583a66f38b7": "df0ef8b0-79ab-47a6-af58-71f2e17d38c1",
+            "cc54cd1b-bd96-4d0f-ac0c-69da8c971a43": "686ae23c-77ad-4c27-acb9-ec723f4f861f",
+            "c61596a1-738d-4b50-b1ac-9be63def8591": "47b7c156-dde3-435c-b0b4-71b166e64172",
+            "1be58801-e489-4cf3-a909-b466f5e197ee": "0abfaf57-19ac-4dc4-8cd6-5254a7309ec0",
+            "7f4817b4-7281-498e-b586-771415a3451c": "6bba9756-8e0c-46c6-a95c-a2f26ecddf33",
+            "fe60bb17-a5cb-45cf-bed9-9c5bd3474d94": "574d19dd-a1ef-4f66-9e55-569b756b522b",
+            "f9b3c8b5-c671-4402-98b7-927c142eaaf0": "78149678-6348-4a17-a4be-c7f168a7b9d0",
+            "6033a3d3-a96b-450f-abd1-35cbaaf271cf": "322b6bca-80ee-4023-bba2-9b7ed1df8b39",
+            "81d052ff-66ab-4b3d-ac1a-1fd81a0b9868": "f26d891d-e75e-479b-8605-2cb437ae9353",
+            "1bb6a1bc-1fff-4f88-b283-e6b127ea708e": "88508e8d-6109-4eed-bfaa-983f1bbf7d18",
+            "b721e6f4-13fc-4d35-9518-756c62ee42ce": "d647bd9c-dbcb-4f45-8353-149bc86207a2"
+          }
+        }
+      ]
     }
   ],
   "SceneProperties": {
@@ -24814,14 +25557,14 @@
       "CustomBounds": false
     },
     "GameObjectSystems": {
-      "Sandbox.Clutter.ClutterGridSystem": {
-        "Storage": {
-          "$blob": "5551d642-515b-4347-bd0d-9351549ba768"
-        }
-      },
       "Sandbox.SelectionSetsSystem": {
         "Data": {
           "SelectionSets": []
+        }
+      },
+      "Sandbox.Clutter.ClutterGridSystem": {
+        "Storage": {
+          "$blob": "5551d642-515b-4347-bd0d-9351549ba768"
         }
       }
     }
@@ -24832,7 +25575,6 @@
   "__references": [
     "facepunch.bed_frame_02#45168",
     "facepunch.coffeetablea#274713",
-    "facepunch.couch_body#279772",
     "facepunch.couch#279771",
     "facepunch.oil_drum#279778",
     "facepunch.pallet#280216",

@@ -9,13 +9,16 @@
       "Schema": 0,
       "IncludeSourceFiles": false,
       "Resources": null,
-      "PackageReferences": null,
+      "PackageReferences": [],
       "EditorReferences": null,
       "Mounts": null,
       "IsStandaloneOnly": false,
       "Metadata": {
         "SingleAssetSource": "scenes/butchers den.scene",
-        "ParentPackage": "fss.bloodsigil"
+        "ParentPackage": "fss.bloodsigil",
+        "GameSupport": [
+          "fss.bloodsigil"
+        ]
       }
     }
   }
